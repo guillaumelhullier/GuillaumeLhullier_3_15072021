@@ -1,0 +1,33 @@
+@mixin footer {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;      
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;    
+}
+@mixin footera {
+    font-family: 'Shrikhand', cursive; 
+    font-size: 30px;  
+    font-weight: bold;
+    margin-left: 10px; 
+}
+@mixin footerb {
+    display: flex;       
+    font-weight: bold; 
+    margin-top: 20px;
+    margin-left: 10px;  
+}
+@mixin footerc {
+    display: flex;  
+    padding-top: 3px; 
+    font-weight: bold; 
+    margin-top: 10px; 
+    margin-left: 10px; 
+}
+@mixin footerd {
+    margin-left: 10px;
+    font-weight: bold; 
+    margin-top: 10px;    
+}

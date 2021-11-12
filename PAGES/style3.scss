@@ -1,0 +1,213 @@
+$primaire: #9356DC;
+$secondaire: #ff79da;
+$tertiaire: #99e2d0;
+$fond:#f6f6f6;
+$footer:353535;
+$header:#ffffff;
+
+@import "./mixins.scss";
+
+body{    
+    margin:0px;  
+    max-width: 500px; 
+    min-width: none;     
+    margin: auto;   
+    position: relative;  
+}
+header{
+    width: 100%;       
+}
+.header1{    
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;  
+    width: 65%;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Shrikhand', cursive;
+}
+.header2{
+    justify-content: center;
+}
+header img{
+    width: 100%;
+    height: 230px;
+}
+main{
+    @include main;
+}
+.maina{
+    @include maintitre;
+}
+.maina p{
+    @include maintitrep;
+}
+.mainb {
+    @include mainchoix;
+}
+.mainc {
+    @include mainplat;
+}
+.mainc1{
+    @include mainplat1;
+}
+.mainc2{
+    @include mainplat2;
+}
+.mainc2 p {
+    @include mainplat2p;
+}
+.mainc3{
+    font-weight: bold;
+}
+.maind{
+    @include mainplat;
+}
+.maind1{
+    @include mainplat1;
+}
+.maind2{
+    @include mainplat2;
+}
+.maind2 p{
+    @include mainplat2p;
+}
+.maind3{
+    font-weight: bold;
+}
+.maine{
+    @include mainplat;
+}
+.maine1{
+    @include mainplat1;
+}
+.maine2{
+    @include mainplat2;
+}
+.maine2 p {
+    @include mainplat2p
+}
+.maine3{
+    font-weight: bold;
+}
+.mainb1{
+    @include mainchoix;
+}
+.mainf{
+    @include mainplat;    
+}
+.mainf1{
+    @include mainplat1;
+}
+.mainf2{
+    @include mainplat2;
+}
+.mainf2 p{
+    @include mainplat2p;
+}
+.mainf3{
+    font-weight: bold;
+}
+.maing{
+    @include mainplat;
+}
+.maing1{
+    @include mainplat1;    
+}
+.maing2{
+    @include mainplat2;
+}
+.maing2 p {
+    @include mainplat2p;
+}
+.maing3{
+    font-weight: bold;
+}
+.mainh{
+    @include mainplat;
+}
+.mainh1{
+    @include mainplat1;
+}
+.mainh2{
+    @include mainplat2
+}
+.mainh2 p{
+    @include mainplat2p
+}
+.mainh3{
+    font-weight: bold;
+}
+.mainb2{
+    @include mainchoix;
+}
+.maini{
+    @include mainplat;
+}
+.maini1{
+    @include mainplat1;
+}
+.maini2{
+    @include mainplat2;
+}
+.maini2 p{
+    @include mainplat2p;
+}
+.maini3{
+    font-weight: bold;
+}
+.mainj{
+    @include mainplat;
+}
+.mainj1{
+    @include mainplat1;
+}
+.mainj2{
+    @include mainplat2;
+}
+.mainj2 p{
+    @include mainplat2p
+}
+.mainj3{
+    font-weight: bold;
+}
+.maink{
+    @include mainplat;
+}
+.maink1{
+    @include mainplat1;
+}
+.maink2{
+    @include mainplat2;
+}
+.maink2 p {
+    @include mainplat2p
+}
+.maink3{
+    font-weight: bold;
+}
+.commander{
+    @include bouton;
+}
+footer{
+    @include footer;
+}
+.footera{
+    @include footera;
+}
+.footerb{
+    @include footerb;
+}
+.footerc{
+    @include footerc;
+}
+.footerd{
+    @include footerd
+}
+footer p{
+    @include footerp;
+}
+
+
+

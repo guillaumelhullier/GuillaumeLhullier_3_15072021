@@ -1,0 +1,112 @@
+@mixin main {           
+        margin: 0px;
+        width:auto;
+        position: absolute;
+        top: 250px;
+        left:0px;
+        width: 100%;
+        border-radius: 30px;
+        height: 1500px;
+        z-index: 1;
+        background-color: $fond;
+        padding-top: 40px;
+    }
+@mixin maintitre {    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    font-size: 25px;
+}
+@mixin maintitrep{
+    font-family: 'Shrikhand', cursive;
+    margin-top: 0px;   
+}
+@mixin mainchoix{
+    font-family: 'Roboto', sans-serif;
+    border-bottom-style: solid;
+    border-bottom-color: $tertiaire;
+    width: 40px; 
+    margin-left: 10px;  
+}
+@mixin mainplat{    
+    font-family: 'Roboto', sans-serif;    
+    width: 80%;
+    border-radius: 20px;    
+    margin: auto;
+    background-color: $header;
+    margin-top: 15px;
+    box-shadow: 2px 2px 30px $fond;
+    padding-left: 10px;
+    padding-right: 10px; 
+    height: 55px;
+    margin-bottom: 15px;
+}
+@mixin mainplat1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+@mixin  mainplat2{
+    display: flex;
+    justify-content: space-between;    
+}
+@mixin mainplat2p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@mixin bouton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $secondaire;  
+        display: flex;      
+        width: 300px;
+        height: 50px;
+        text-align: center;
+        border-radius: 50px;
+        color: #ffffff;
+        box-shadow: 2px 2px 15px $primaire;
+        font-weight: bold;
+        margin: auto;  
+        font-size: 40px;
+        margin-top: 50px;
+}
+@mixin footer{
+    position: absolute;
+    top: 1480px;
+    left: 0px;
+    z-index: 2;
+    background-color: #353535; 
+    margin-top: 30px;      
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    width: 100%;
+}
+@mixin footera{
+    font-family: 'Shrikhand', cursive; 
+    font-size: 30px;  
+    font-weight: bold;
+    margin-left: 30px;
+}
+@mixin footerb{
+        display: flex;  
+        padding-top: 3px; 
+        font-weight: bold; 
+        margin-top: 10px; 
+        margin-left: 30px;
+}
+@mixin footerc{
+    margin-left: 30px; 
+}
+@mixin footerd{
+    padding-top: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+@mixin footerp {
+    margin-top: 0px;
+    font-weight: bold;    
+}

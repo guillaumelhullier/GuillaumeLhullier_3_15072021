@@ -167,6 +167,7 @@ main {
   padding-left: 10px;
   padding-right: 10px;
   height: 55px;
+  margin-bottom: 15px;
 }
 
 .maine1 {
@@ -200,12 +201,6 @@ main {
   border-bottom-color: #99e2d0;
   width: 40px;
   margin-left: 10px;
-}
-
-.mainb1 p {
-  margin-left: 25px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .mainf {
@@ -388,7 +383,7 @@ main {
   padding-left: 10px;
   padding-right: 10px;
   height: 55px;
-  margin-bottom: 55px;
+  margin-bottom: 15px;
 }
 
 .mainj1 {
@@ -470,15 +465,15 @@ main {
   display: flex;
   width: 300px;
   height: 50px;
-  margin: auto;
-  margin-top: 50px;
   text-align: center;
   border-radius: 50px;
   color: #ffffff;
-  font-size: 40px;
   -webkit-box-shadow: 2px 2px 15px #9356DC;
           box-shadow: 2px 2px 15px #9356DC;
   font-weight: bold;
+  margin: auto;
+  font-size: 40px;
+  margin-top: 50px;
 }
 
 footer {
@@ -526,4 +521,4 @@ footer p {
   margin-top: 0px;
   font-weight: bold;
 }
-/*# sourceMappingURL=style1.css.map */
+/*# sourceMappingURL=style3.css.map */

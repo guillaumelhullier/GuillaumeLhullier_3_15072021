@@ -1,0 +1,410 @@
+$primaire: #9356DC;
+$secondaire: #ff79da;
+$tertiaire: #99e2d0;
+$fond:#f6f6f6;
+$footer:353535;
+$header:#ffffff;
+
+body{    
+    margin:0px;  
+    max-width: 500px; 
+    min-width: none;     
+    margin: auto;   
+    position: relative;  
+}
+header{
+    width: 100%;       
+}
+.header1{    
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;  
+    width: 65%;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Shrikhand', cursive;
+}
+.header2{
+    justify-content: center;
+}
+header img{
+    width: 100%;
+    height: 230px;
+}
+main{
+    
+    margin: 0px;
+    width:auto;
+    position: absolute;
+    top: 250px;
+    left:0px;
+    width: 100%;
+    border-radius: 30px;
+    height: 1500px;
+    z-index: 1;
+    background-color: $fond;
+    padding-top: 40px;
+}
+.maina{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    font-size: 25px;
+}
+.maina p{
+    font-family: 'Shrikhand', cursive;
+    margin-top: 0px;    
+}
+.mainb{
+    font-family: 'Roboto', sans-serif;
+    border-bottom-style: solid;
+    border-bottom-color: $tertiaire;
+    width: 40px; 
+    margin-left: 10px;   
+}
+.mainc{    
+    font-family: 'Roboto', sans-serif;    
+    width: 80%;
+    border-radius: 20px;    
+    margin: auto;
+    background-color: $header;
+    margin-top: 15px;
+    box-shadow: 2px 2px 30px $fond;
+    padding-left: 10px;
+    padding-right: 10px; 
+    height: 55px;
+    margin-bottom: 15px;
+}
+.mainc1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.mainc2{
+    display: flex;
+    justify-content: space-between;    
+}
+.mainc2 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mainc3{
+    font-weight: bold;
+}
+.maind
+{            
+        font-family: 'Roboto', sans-serif;    
+        width: 80%;
+        border-radius: 20px;    
+        margin: auto;
+        background-color: $header;
+        margin-top: 15px;
+        box-shadow: 2px 2px 30px $fond;
+        padding-left: 10px;
+        padding-right: 10px; 
+        height: 55px;
+        margin-bottom: 15px;
+    }
+.maind1{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+.maind2{
+    display: flex;
+    justify-content: space-between;    
+}
+.maind2 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.maind3{
+    font-weight: bold;
+}
+.maine{
+    font-family: 'Roboto', sans-serif;    
+    width: 80%;
+    border-radius: 20px;    
+    margin: auto;
+    background-color: $header;
+    margin-top: 15px;
+    box-shadow: 2px 2px 30px $fond;
+    padding-left: 10px;
+    padding-right: 10px; 
+    height: 55px;
+}
+.maine1{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 0px;
+}
+.maine2{
+    display: flex;
+    justify-content: space-between;
+    }
+.maine2 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.maine3{
+    font-weight: bold;
+}
+.mainb1{
+    font-family: 'Roboto', sans-serif;
+    border-bottom-style: solid;
+    border-bottom-color: $tertiaire;
+    width: 40px;  
+    margin-left: 10px
+}
+.mainb1 p{
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mainf{    
+    font-family: 'Roboto', sans-serif;    
+    width: 80%;
+    border-radius: 20px;    
+    margin: auto;
+    background-color: $header;
+    margin-top: 15px;
+    box-shadow: 2px 2px 30px $fond;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 55px; 
+    margin-bottom: 15px;
+}
+.mainf1{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 0px;
+}
+.mainf2{
+    display: flex;
+    justify-content: space-between;    
+}
+.mainf2 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mainf3{
+    font-weight: bold;
+}
+.maing{    
+    font-family: 'Roboto', sans-serif;    
+    width: 80%;
+    border-radius: 20px;    
+    margin: auto;
+    background-color: $header;
+    margin-top: 15px;
+    box-shadow: 2px 2px 30px $fond;
+    padding-left: 10px;
+    padding-right: 10px; 
+    height: 55px;
+    margin-bottom: 15px;
+}
+.maing1{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 0px;
+}
+.maing2{
+    display: flex;
+    justify-content: space-between;    
+}
+.maing2 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.maing3{
+    font-weight: bold;
+}
+.mainh{    
+    font-family: 'Roboto', sans-serif;    
+    width: 80%;
+    border-radius: 20px;    
+    margin: auto;
+    background-color: $header;
+    margin-top: 15px;
+    box-shadow: 2px 2px 30px $fond;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 55px; 
+    margin-bottom: 15px;
+}
+.mainh1{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 0px;
+}
+.mainh2{
+    display: flex;
+    justify-content: space-between;    
+}
+.mainh2 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mainh3{
+    font-weight: bold;
+}
+.mainb2{
+    font-family: 'Roboto', sans-serif;
+    border-bottom-style: solid;
+    border-bottom-color: $tertiaire;
+    width: 40px; 
+    margin-left: 10px
+}
+.maini{
+    font-family: 'Roboto', sans-serif;    
+    width: 80%;
+    border-radius: 20px;    
+    margin: auto;
+    background-color: $header;
+    margin-top: 15px;
+    box-shadow: 2px 2px 30px $fond;
+    padding-left: 10px;
+    padding-right: 10px; 
+    height: 55px;
+    margin-bottom: 15px;
+}
+.maini1{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 0px;
+}
+.maini2{
+    display: flex;
+    justify-content: space-between;    
+}
+.maini2 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.maini3{
+    font-weight: bold;
+}
+.mainj{    
+    font-family: 'Roboto', sans-serif;    
+    width: 80%;
+    border-radius: 20px;    
+    margin: auto;
+    background-color: $header;
+    margin-top: 15px;
+    box-shadow: 2px 2px 30px $fond;
+    padding-left: 10px;
+    padding-right: 10px; 
+    height: 55px;
+    margin-bottom: 55px;
+}
+.mainj1{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 0px;
+}
+.mainj2{
+    display: flex;
+    justify-content: space-between;    
+}
+.mainj2 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mainj3{
+    font-weight: bold;
+}
+.maink{    
+    font-family: 'Roboto', sans-serif;    
+    width: 80%;
+    border-radius: 20px;    
+    margin: auto;
+    background-color: $header;
+    margin-top: 15px;
+    box-shadow: 2px 2px 30px $fond;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 55px; 
+    margin-bottom: 15px;
+}
+.maink1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px
+}
+.maink2{
+    display: flex;
+    justify-content: space-between;    
+}
+.maink2 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.maink3{
+    font-weight: bold
+}.commander{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondaire;  
+    display: flex;      
+    width: 300px;
+    height: 50px;
+    margin: auto;  
+    margin-top: 50px;     
+    text-align: center;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 40px;
+    box-shadow: 2px 2px 15px $primaire;
+    font-weight: bold;                
+}
+footer{
+    position: absolute;
+    top: 1480px;
+    left: 0px;
+    z-index: 2;
+    background-color: #353535; 
+    margin-top: 30px;      
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    width: 100%;
+}
+.footera{
+    font-family: 'Shrikhand', cursive; 
+    font-size: 30px;  
+    font-weight: bold;
+    margin-left: 30px;
+}
+.footerb{
+        display: flex;  
+        padding-top: 3px; 
+        font-weight: bold; 
+        margin-top: 10px; 
+        margin-left: 30px;
+}
+.footerc{
+    margin-left: 30px; 
+}
+.footerd{
+        padding-top: 4px;
+      margin-top: 10px;
+      font-weight: bold;
+      margin-left: 30px;
+}
+footer p{
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+

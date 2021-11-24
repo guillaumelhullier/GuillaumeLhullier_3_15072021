@@ -7,6 +7,15 @@ $header:#ffffff;
 
 @import "./mixins.scss";
 
+@keyframes clarte{
+    from{
+         opacity: 0;
+    }
+    to{
+         opacity: 1;
+    }
+}
+
 body{    
     margin:0px;  
     max-width: 500px; 
@@ -34,6 +43,9 @@ header img{
     width: 100%;
     height: 230px;
 }
+.fa-arrow-left{
+    color: black;
+}
 main {
     @include main;
 }
@@ -49,6 +61,37 @@ main {
 .mainc{
     @include mainplat;
 }
+.chek{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    background-color:$tertiaire;
+    height: (55px); 
+    position: absolute;      
+    right: -40px;   
+    transition: transform 2s;   
+    }
+
+.fa-check-circle{
+    font-size: larger;
+    color: #ffffff;       
+}
+.mainc{
+    animation-name: clarte;
+    animation-duration: 5s;    
+}
+.mainc:hover{
+    background-color: $header;
+    box-shadow: 2px 2px 30px #cccccc; 
+    transition: all 250ms;  
+}
+.mainc:hover .chek{
+    transform: translate(-40px)
+}
+.mainc.mainc:hover .mainc4{
+    width: 85%;
+}
 .mainc1{
     @include mainplat1;
 }
@@ -61,8 +104,27 @@ main {
  .mainc3{
      font-weight: bold;
  }
+ .mainc4{
+     width: 95%;
+     transition: width 2s;
+ }
  .maind {
      @include mainplat;
+ }
+ .maind{
+    animation-name: clarte;
+    animation-duration: 5s;
+ }
+ .maind:hover{
+    background-color: $header;
+    box-shadow: 2px 2px 30px #cccccc;
+    transition: all 250ms;    
+ }
+ .maind:hover .chek{
+     transform:translate(-40px);
+ }
+ .maind:hover .maind4{
+     width: 85%;
  }
  .maind1 {
      @include mainplat1;
@@ -76,11 +138,36 @@ main {
  .maind3{
      font-weight: bold;
  }
+ .maind4{
+     width: 95%;
+     transition: width 2S;
+ }
  .maine{
      @include mainplat;
  }
  .maine1{
      @include mainplat1;
+ }
+ .maine:hover{
+    background-color: $header;
+    box-shadow: 2px 2px 30px #cccccc;
+    transition: all 250ms;    
+ }
+ .maine:hover .chek{
+     transform: translate(-40px);
+ }
+ .maine:hover .maine4{
+     width:85%;
+ }
+ .maine:hover .chek{
+     transform: translate(-40px);
+      }
+.maine:hover .maie4{
+    transition: width 2s;
+}
+ .maine{
+    animation-name: clarte;
+    animation-duration: 5s;
  }
  .maine2{
      @include mainplat2;
@@ -91,8 +178,34 @@ main {
  .maine3{
      font-weight: bold;
  }
+ .maine4{
+     width: 95%;
+     transition: width 2s;
+ }
  .mainl{
      @include mainplat;
+ }
+ .mainl{
+    animation-name: clarte;
+    animation-duration: 5s;
+ }
+ .mainl:hover{
+    background-color: $header;
+    box-shadow: 2px 2px 30px #cccccc;
+    transition: all 250ms;
+ }
+ .mainl:hover .chek{
+    transform: translate(-40px);    
+ }
+ .mainl:hover .mainl4{
+     width:85%;
+ }
+
+ .mainl:hover .chek{
+     transform: translate(-40px);
+ }
+ .mainl:hover .mainl4{
+     width: 85%;
  }
  .mainl1{
      @include mainplat1;
@@ -106,11 +219,30 @@ main {
  .mainl3 {
      font-weight: bold;
  }
+ .mainl4{
+     width: 95%;
+     transition: width 2s;
+ }
  .mainb1 {
      @include mainchoix;
  }
  .mainf {
      @include mainplat;
+ }
+ .mainf:hover{
+    background-color: $header;
+    box-shadow: 2px 2px 30px #cccccc;
+    transition: all 250ms;
+ }
+ .mainf:hover .chek{
+     transform: translate(-40px);
+ }
+ .mainf:hover .mainf4{
+        width: 85%;
+ }
+ .mainf{
+    animation-name: clarte;
+    animation-duration: 7s;
  }
  .mainf1 {
      @include mainplat1;
@@ -124,8 +256,27 @@ main {
  .mainf3{
      font-weight: bold;
  }
+ .mainf4{
+     width: 95%;
+     transition: width 2s;
+ }
  .maing{
      @include mainplat;
+ }
+ .maing{
+    animation-name: clarte;
+    animation-duration: 7s;
+ }
+ .maing:hover{
+    background-color: $header;
+    box-shadow: 2px 2px 30px #cccccc;
+    transition: all 250ms;
+ }
+ .maing:hover .chek{
+     transform: translate(-40px);
+ }
+ .maing:hover .maing4{
+     width: 85%;
  }
  .maing1{
      @include mainplat1;
@@ -139,8 +290,27 @@ main {
  .maing3{
      font-weight: bold;
  }
+ .maing4{
+     width: 95%;
+     transition: width 2s;
+ }
  .mainh{
      @include mainplat;
+ }
+ .mainh{
+    animation-name: clarte;
+    animation-duration: 7s;
+ }
+ .mainh:hover{
+    background-color: $header;
+    box-shadow: 2px 2px 30px #cccccc;
+    transition: all 250ms;
+ }
+ .mainh:hover .chek{
+     transform:translate(-40px);
+ }
+ .mainh:hover .mainh4{
+     width: 85%;
  }
  .mainh1{
      @include mainplat1;
@@ -154,11 +324,30 @@ main {
  .mainh3 {
      font-weight: bold;
  }
+ .mainh4{
+     width: 95%;
+     transition: width 2s;
+ }
  .mainb2{
      @include mainchoix;
  }
  .maini{
      @include mainplat;
+ }
+ .maini{
+    animation-name: clarte;
+    animation-duration: 10s;
+ }
+ .maini:hover{
+    background-color: $header;
+    box-shadow: 2px 2px 30px #cccccc;
+    transition: all 250ms;
+ }
+ .maini:hover .chek{
+     transform: translate(-40px);
+ }
+ .maini:hover .maini4{
+     width: 85%;
  }
  .maini1{
      @include mainplat1;
@@ -172,8 +361,27 @@ main {
  .maini3{
      font-weight: bold;
  }
+ .maini4{
+     width: 95%;
+     transition: width 2s;
+ }
  .mainj{
      @include mainplat;
+ }
+ .mainj{
+    animation-name: clarte;
+    animation-duration: 10s;
+ }
+ .mainj:hover{
+    background-color: $header;
+    box-shadow: 2px 2px 30px #cccccc;
+    transition: all 250ms;
+ }
+ .mainj:hover .chek{
+     transform: translate(-40px);
+ }
+ .mainj:hover .mainj4{
+     width: 85%;
  }
  .mainj1{
      @include mainplat1;
@@ -187,8 +395,27 @@ main {
  .mainj3{
      font-weight: bold;
  }
+ .mainj4{
+     width: 95%;
+     transition: width 2s;
+ }
  .maink{
      @include mainplat;
+ }
+ .maink{
+    animation-name: clarte;
+    animation-duration: 10s;
+ }
+ .maink:hover{
+    background-color: $header;
+    box-shadow: 2px 2px 30px #cccccc;
+    transition: all 250ms;
+ }
+ .maink:hover .chek{
+     transform: translate(-40px);
+ }
+ .maink:hover .maink4{
+     width: 85%;
  }
  .maink1{
      @include mainplat1;
@@ -202,8 +429,17 @@ main {
 .maink3{
     font-weight: bold;
 }
+.maink4{
+    width: 95%;
+    transition: width 2s;
+}
 .commander {
     @include bouton;
+}
+.commander:hover{
+    background-color: #fface8;
+    box-shadow: 2px 2px 15px #ff46cc;
+    transition: 250ms;    
 }
 footer{
     @include footer;
@@ -218,7 +454,7 @@ footer{
     @include footerc;
 }
 .footerd{
-    @include footerd;
+    @include footerd;    
 }
 footer p{
     @include footerp;

@@ -1,3 +1,21 @@
+@-webkit-keyframes clarte {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes clarte {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 body {
   margin: 0px;
   max-width: 500px;
@@ -36,6 +54,10 @@ header {
 header img {
   width: 100%;
   height: 230px;
+}
+
+.fa-arrow-left {
+  color: black;
 }
 
 main {
@@ -85,9 +107,67 @@ main {
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 0px;
   height: 55px;
   margin-bottom: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.chek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 40px;
+  background-color: #99e2d0;
+  height: 55px;
+  position: absolute;
+  right: -40px;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+
+.fa-check-circle {
+  font-size: larger;
+  color: #ffffff;
+}
+
+.mainc {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.mainc:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 30px #cccccc;
+          box-shadow: 2px 2px 30px #cccccc;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.mainc:hover .chek {
+  -webkit-transform: translate(-40px);
+          transform: translate(-40px);
+}
+
+.mainc:hover .mainc4 {
+  width: 85%;
 }
 
 .mainc1 {
@@ -115,6 +195,12 @@ main {
   font-weight: bold;
 }
 
+.mainc4 {
+  width: 95%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 .maind {
   font-family: 'Roboto', sans-serif;
   width: 80%;
@@ -125,9 +211,41 @@ main {
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 0px;
   height: 55px;
   margin-bottom: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.maind {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.maind:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 30px #cccccc;
+          box-shadow: 2px 2px 30px #cccccc;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.maind:hover .chek {
+  -webkit-transform: translate(-40px);
+          transform: translate(-40px);
+}
+
+.maind:hover .maind4 {
+  width: 85%;
 }
 
 .maind1 {
@@ -155,6 +273,12 @@ main {
   font-weight: bold;
 }
 
+.maind4 {
+  width: 95%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 .maine {
   font-family: 'Roboto', sans-serif;
   width: 80%;
@@ -165,9 +289,41 @@ main {
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 0px;
   height: 55px;
   margin-bottom: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.maine {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.maine:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 30px #cccccc;
+          box-shadow: 2px 2px 30px #cccccc;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.maine:hover .chek {
+  -webkit-transform: translate(-40px);
+          transform: translate(-40px);
+}
+
+.maine:hover .maine4 {
+  width: 85%;
 }
 
 .maine1 {
@@ -195,6 +351,12 @@ main {
   font-weight: bold;
 }
 
+.maine4 {
+  width: 95%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 .mainb1 {
   font-family: 'Roboto', sans-serif;
   border-bottom-style: solid;
@@ -213,9 +375,62 @@ main {
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 0px;
   height: 70px;
   margin-bottom: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.chek1 {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 40px;
+  background-color: #99e2d0;
+  position: absolute;
+  right: -40px;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+
+.mainf {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+}
+
+.mainf:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 30px #cccccc;
+          box-shadow: 2px 2px 30px #cccccc;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.mainf:hover .chek1 {
+  -webkit-transform: translate(-40px);
+          transform: translate(-40px);
+}
+
+.mainf:hover .mainf4 {
+  width: 85%;
 }
 
 .mainf1 {
@@ -249,6 +464,12 @@ main {
   font-weight: bold;
 }
 
+.mainf4 {
+  width: 95%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 .maing {
   font-family: 'Roboto', sans-serif;
   width: 80%;
@@ -259,9 +480,41 @@ main {
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 0px;
   height: 55px;
   margin-bottom: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.maing:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 30px #cccccc;
+          box-shadow: 2px 2px 30px #cccccc;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.maing:hover .chek {
+  -webkit-transform: translate(-40px);
+          transform: translate(-40px);
+}
+
+.maing:hover .maing4 {
+  width: 85%;
+}
+
+.maing {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
 }
 
 .maing1 {
@@ -289,6 +542,12 @@ main {
   font-weight: bold;
 }
 
+.maing4 {
+  width: 95%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 .mainh {
   font-family: 'Roboto', sans-serif;
   width: 80%;
@@ -299,9 +558,41 @@ main {
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 0px;
   height: 55px;
   margin-bottom: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.mainh {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+}
+
+.mainh:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 30px #cccccc;
+          box-shadow: 2px 2px 30px #cccccc;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.mainh:hover .chek {
+  -webkit-transform: translate(-40px);
+          transform: translate(-40px);
+}
+
+.mainh:hover .mainh4 {
+  width: 85%;
 }
 
 .mainh1 {
@@ -329,6 +620,12 @@ main {
   font-weight: bold;
 }
 
+.mainh4 {
+  width: 95%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 .mainb2 {
   font-family: 'Roboto', sans-serif;
   border-bottom-style: solid;
@@ -347,9 +644,41 @@ main {
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 0px;
   height: 55px;
   margin-bottom: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.maini {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+.maini:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 30px #cccccc;
+          box-shadow: 2px 2px 30px #cccccc;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.maini:hover .chek {
+  -webkit-transform: translate(-40px);
+          transform: translate(-40px);
+}
+
+.maini:hover .maini4 {
+  width: 85%;
 }
 
 .maini1 {
@@ -377,6 +706,12 @@ main {
   font-weight: bold;
 }
 
+.maini4 {
+  width: 95%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 .mainj {
   font-family: 'Roboto', sans-serif;
   width: 80%;
@@ -387,9 +722,41 @@ main {
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 0px;
   height: 55px;
   margin-bottom: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.mainj {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+.mainj:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 30px #cccccc;
+          box-shadow: 2px 2px 30px #cccccc;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.mainj:hover .chek {
+  -webkit-transform: translate(-40px);
+          transform: translate(-40px);
+}
+
+.mainj:hover .mainj4 {
+  width: 85%;
 }
 
 .mainj1 {
@@ -417,6 +784,12 @@ main {
   font-weight: bold;
 }
 
+.mainj4 {
+  width: 95%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 .maink {
   font-family: 'Roboto', sans-serif;
   width: 80%;
@@ -427,9 +800,41 @@ main {
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 0px;
   height: 55px;
   margin-bottom: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.maink {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+.maink:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 30px #cccccc;
+          box-shadow: 2px 2px 30px #cccccc;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.maink:hover .chek {
+  -webkit-transform: translate(-40px);
+          transform: translate(-40px);
+}
+
+.maink:hover .maink4 {
+  width: 85%;
 }
 
 .maink1 {
@@ -457,6 +862,12 @@ main {
   font-weight: bold;
 }
 
+.maink4 {
+  width: 95%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 .commander {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -474,12 +885,20 @@ main {
   text-align: center;
   border-radius: 50px;
   color: #ffffff;
-  -webkit-box-shadow: 2px 2px 15px #9356DC;
-          box-shadow: 2px 2px 15px #9356DC;
+  -webkit-box-shadow: 2px 2px 15px #ff79da;
+          box-shadow: 2px 2px 15px #ff79da;
   font-weight: bold;
   margin: auto;
   font-size: 40px;
   margin-top: 50px;
+}
+
+.commander:hover {
+  background-color: #fface8;
+  -webkit-box-shadow: 2px 2px 15px #ff46cc;
+          box-shadow: 2px 2px 15px #ff46cc;
+  -webkit-transition: 250ms;
+  transition: 250ms;
 }
 
 footer {
@@ -521,9 +940,11 @@ footer {
   margin-top: 10px;
   font-weight: bold;
   margin-left: 30px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.footer p {
+footer p {
   margin-top: 0px;
   font-weight: bold;
 }

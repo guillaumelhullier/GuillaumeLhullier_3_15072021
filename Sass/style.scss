@@ -2,7 +2,10 @@
 body{                
         
         max-width: 1000px;     
-        margin: auto;   
+        margin: auto; 
+        position: relative;
+        background-color: #ffffff; 
+        opacity: 1; 
     }
 header{     
       margin-top: 0px;
@@ -10,6 +13,57 @@ header{
   $primary:#9356DC;
   $secondary: #FF79DA;
   $tercary: #99E2D0;
+@keyframes flash {    
+    0%{ 
+      color: #fff900;
+      text-shadow: 0 0 15px #fff900 ; 
+    }   
+    90%{
+      color: #484848;      
+      text-shadow: 0 0 15px #fff900;
+    }
+    100%{
+      color: #fff900;
+      text-shadow: 0 0 15px #fff900;      
+    }
+  }
+@keyframes spin {  
+    99% {
+      z-index: 2;      
+    }  
+    100% {   
+      z-index: -1;
+      color: #ffffff;      
+    }
+  }  
+.spin{
+    position:fixed;
+    left: -0px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;    
+    top: 0px;     
+    z-index: 2; 
+    text-align: center;   
+    padding-top: 200px;
+    animation: spin ;
+    animation-duration: 3000ms;
+    animation-fill-mode: forwards;
+}  
+.lettre{    
+        color: #484848;
+        font-size: 80px;
+        letter-spacing: 20px;
+        animation: flash ;
+        animation-duration: 1000ms; 
+        animation-iteration-count: 4;
+  }
+  .site{
+      background-color: #ffffff;
+  }
+  .header{
+      background-color: #ffffff;
+  }
   .headera{
     font-family: 'Shrikhand', cursive;
     text-align: center;
@@ -26,7 +80,7 @@ header{
       background-color: #eaeaea;
       font-weight: bold;
       height: 100px;
-      font-size: 30px;     
+      font-size: 30px;  
 
 }
   .headerb p{
@@ -38,8 +92,8 @@ header{
   article{
     padding-top: 50px;
     font-family: 'Roboto', sans-serif; 
-    background-color: #f6f6f6;  
-    height: 290px; 
+    background-color:#f6f6f6;  
+    height: 290px;     
   }
   .reservez{      
       font-weight: bold;
@@ -63,17 +117,25 @@ header{
       text-align: center;
       border-radius: 50px;
       color: #ffffff;
-      box-shadow: 2px 2px 15px $primary;
+      box-shadow: 2px 2px 15px $secondary;
       font-weight: bold;
       font-size: 20px;
       margin: auto;
   }
+  .explorer:hover{
+      background-color: #fface8;
+      box-shadow: 2px 2px 15px #ff46cc;
+      transition: all 250ms;
+  }
   aside{
     font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    padding-top: 20px;
   }
   .fonctionnement{
       font-weight: bold;
       font-size: 20px;
+      margin:0px;
   }
   .choisisseza{
       display: flex; 
@@ -88,7 +150,11 @@ header{
       margin-bottom: 20px;
       position: relative;        
   }
-  
+  .choisisseza:hover{
+      background-color: #ffffff;
+      box-shadow: 2px 2px 15px #dcdcdc;
+      transition: 250ms;
+  }  
   .un{
       margin-top: 0px;      
       border-radius: 50px;
@@ -115,6 +181,11 @@ header{
       width: 250px;
       position: relative;
       margin-left: 20px;
+  }
+  .composeza:hover{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 15px #dcdcdc;
+    transition: 250ms;
   }
   .deux{
       margin-top: 0px;                
@@ -143,6 +214,11 @@ header{
       position: relative;
       margin-left: 20px;
   }
+  .degusteza:hover{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 15px #dcdcdc;
+    transition: 250ms;
+  }
   .trois{
     margin-top: 0px;      
     margin-right: 10px;          
@@ -162,8 +238,7 @@ header{
     margin-left: 10px;
   }
   main{
-    font-family: 'Roboto', sans-serif;
-    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;    
     margin-bottom: 0px;  
     background-color: #f6f6f6;     
     border-radius: 20px;
@@ -180,11 +255,28 @@ header{
       border-radius: 20px 20px 0px 0px;
   }
   .coeur{
+      position: relative;
       font-size: 30px;
   }
-  .coeur1 :hover{
-        background-color: $secondary;
-  }  
+  .fa-heart-o{
+      position: relative;
+      opacity:1;
+      z-index: 1;
+      background-color: #ffffff;
+  }
+  .fa-heart{
+      background: linear-gradient( 45deg, #ff79da, #9356dc);
+      -webkit-text-fill-color:transparent;
+      -webkit-background-clip: text;
+      position: absolute;
+      left: 0px;
+      opacity: 1;
+      z-index: 0;
+  }
+  .fa-heart-o:hover{
+      opacity: 0;
+      transition: opacity 250ms;
+  }
   .nouveau{
       display: flex;
       justify-content: space-around;
@@ -313,6 +405,8 @@ header{
       padding-top: 4px;
       margin-top: 10px;
       font-weight: bold;
+      text-decoration:none;
+      color: #ffffff;
   }
   footer p{
       margin-top: 0px;
@@ -380,6 +474,12 @@ header{
         height: 450px;
         margin-top: 50px;
     }
+@media screen  and  ( max-width : 870px)
+{
+    .lettre{
+        font-size: 40px;
+    }
+}
 @media screen and ( max-width : 600px)
 {   
     .headera{
@@ -427,7 +527,16 @@ header{
         margin-top: 0px;
     }
 }
-}}
+@media screen and ( max-width : 560px)
+{
+    .lettre{
+        font-size: 25px;
+        letter-spacing: 10px;
+    }
+}
+}
+  }
+
  
 
 

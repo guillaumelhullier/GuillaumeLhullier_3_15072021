@@ -37,10 +37,14 @@
     margin-top: 15px;
     box-shadow: 2px 2px 30px $fond;
     padding-left: 10px;
-    padding-right: 10px; 
+    padding-right: 0px; 
     height: 55px;
-    margin-bottom: 15px;
-}
+    margin-bottom: 15px; 
+    overflow: hidden;
+    display: flex;   
+    justify-content: space-between;
+    position: relative;
+    }
 @mixin mainplat1{
     font-size: 20px;
     font-weight: bold;
@@ -66,7 +70,7 @@
         text-align: center;
         border-radius: 50px;
         color: #ffffff;
-        box-shadow: 2px 2px 15px $primaire;
+        box-shadow: 2px 2px 15px $secondaire;
         font-weight: bold;
         margin: auto;  
         font-size: 40px;
@@ -105,6 +109,8 @@
     margin-top: 10px;
     font-weight: bold;
     margin-left: 30px;
+    color:#ffffff;
+    text-decoration: none;
 }
 @mixin footerp {
     margin-top: 0px;

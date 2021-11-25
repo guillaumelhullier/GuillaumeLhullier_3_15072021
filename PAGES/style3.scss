@@ -18,7 +18,7 @@ $header:#ffffff;
 
 body{    
     margin:0px;  
-    max-width: 500px; 
+    max-width: 800px; 
     min-width: none;     
     margin: auto;   
     position: relative;  
@@ -92,6 +92,12 @@ main{
 .mainc:hover .mainc4{
     width: 85%;
 }
+.mainc:hover .mainc1{
+    text-overflow: ellipsis
+}
+.mainc:hover .mainc2 p {
+    text-overflow: ellipsis
+}
 .mainc1{
     @include mainplat1;
 }
@@ -125,6 +131,12 @@ main{
 }
 .maind:hover .maind4{
     width: 85%;
+}
+.maind:hover .maind1{
+    text-overflow: ellipsis;
+}
+.maind:hover .maind2 p{
+    text-overflow: ellipsis;
 }
 .maind1{
     @include mainplat1;
@@ -197,6 +209,12 @@ main{
     animation-name: clarte;
     animation-duration: 7s;
 }
+.mainf:hover .mainf1{
+    text-overflow: ellipsis;
+}
+.mainf:hover .mainf2 p{
+    text-overflow: ellipsis;
+}
 .mainf1{
     @include mainplat1;
 }
@@ -230,6 +248,12 @@ main{
 }
 .maing:hover .maing4{
     width: 85%;
+}
+.maing:hover .maing1{
+    text-overflow: ellipsis;
+}
+.maing:hover .maing2 p{
+    text-overflow: ellipsis;
 }
 .maing1{
     @include mainplat1;    
@@ -336,6 +360,12 @@ main{
 .mainj:hover .mainj4{
     width: 85%;
 }
+.mainj:hover .mainj1{
+    text-overflow: ellipsis;
+}
+.mainj:hover .mainj2 p{
+    text-overflow: ellipsis;
+}
 .mainj1{
     @include mainplat1;
 }
@@ -369,6 +399,12 @@ main{
 }
 .maink:hover .maink4{
     width: 85%;
+}
+.maink:hover .maink1{
+    text-overflow: ellipsis;
+}
+.maink:hover .maink2 p {
+    text-overflow: ellipsis;
 }
 .maink1{
     @include mainplat1;
@@ -412,6 +448,69 @@ footer{
 footer p{
     @include footerp;
 }
+@media screen  and ( max-width: 400px)
+ {
+    .mainc{
+        font-size: 10px;
+    }
+    .mainc1{
+        font-size: 15px;
+    }
+    .maind{
+        font-size: 10px;
+    }
+    .maind1{
+        font-size: 15px;
+    }
+    .mainf{
+        font-size: 10px;
+    }
+    .mainf1{
+        font-size: 15px;
+    }
+    .maing{
+        font-size: 10px;
+    }
+    .maing1{
+        font-size: 15px;
+    }
+    .mainh{
+        font-size: 10px;
+    }    
+    .mainh1{
+        font-size: 15px;
+    }
+    .maini{
+        font-size: 10px;
+    }
+    .maini1{
+        font-size: 15px;
+    }
+    .mainj{
+        font-size: 10px;
+    }
+    .mainj1{
+        font-size: 15px;
+    }
+    
+    .maink{
+        font-size: 10px;
+    }
+    .maink1{
+        font-size: 15px;
+    }
+    .maine{
+        font-size: 10px;
+    }
+    .maine1{
+        font-size: 15px;
+    }
+    }
+
+
+
+
+
 
 
 

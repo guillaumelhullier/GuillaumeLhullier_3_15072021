@@ -18,7 +18,7 @@ $header:#ffffff;
 
 body{    
     margin:0px;  
-    max-width: 500px; 
+    max-width: 800px; 
     min-width: none;      
     margin: auto;   
     position: relative;  
@@ -89,8 +89,14 @@ main {
 .mainc:hover .chek{
     transform: translate(-40px)
 }
-.mainc.mainc:hover .mainc4{
+.mainc:hover .mainc4{
     width: 85%;
+}
+.mainc:hover .mainc1{
+    text-overflow: ellipsis;    
+}
+.mainc:hover .mainc2 p{
+    text-overflow: ellipsis;
 }
 .mainc1{
     @include mainplat1;
@@ -207,6 +213,12 @@ main {
  .mainl:hover .mainl4{
      width: 85%;
  }
+ .mainl:hover .mainl1{
+     text-overflow: ellipsis;
+ }
+ .mail:hover .mainl2 p{
+     text-overflow: ellipsis;
+ }
  .mainl1{
      @include mainplat1;
  }
@@ -239,6 +251,12 @@ main {
  }
  .mainf:hover .mainf4{
         width: 85%;
+ }
+ .mainf:hover .mainf1{
+     text-overflow: ellipsis;
+ }
+ .mainf:hover .mainf2 p{
+     text-overflow: ellipsis;
  }
  .mainf{
     animation-name: clarte;
@@ -348,6 +366,12 @@ main {
  }
  .maini:hover .maini4{
      width: 85%;
+ }
+ .maini:hover .maini1{
+     text-overflow: ellipsis;
+ }
+ .maini:hover .maini2 p{
+    text-overflow: ellipsis
  }
  .maini1{
      @include mainplat1;
@@ -459,6 +483,74 @@ footer{
 footer p{
     @include footerp;
 }
+@media screen  and ( max-width: 400px)
+ {
+    .mainc{
+        font-size: x-small;
+    }
+    .mainc1{
+        font-size: small;
+    }
+    .maind{
+        font-size: x-small;
+    }
+    .maind1{
+        font-size: small;
+    }
+    .maine{
+        font-size: x-small;
+    }
+    .maine1{
+        font-size: small;
+    }
+    .mainf{
+        font-size: x-small;
+    }
+    .mainf1{
+        font-size: small;
+    }
+    .maing{
+        font-size: x-small;
+    }
+    .maing1{
+        font-size: small;
+    }
+    .mainh{
+        font-size: x-small;
+    }
+    .mainh1{
+        font-size: small;
+    }
+    .maini{
+        font-size: x-small;
+    }
+    .maini1{
+        font-size: small;
+    }
+    .mainj{
+        font-size: x-small;
+    }
+    .mainj1{
+        font-size: small;
+    }
+    .maink{
+        font-size: x-small;
+    }
+    .maink1{
+        font-size: x-small;
+    }
+    .mainl2{
+        font-size: x-small;
+    }
+    .mainl1{
+        font-size: x-small;
+    }
+    }
+
+
+
+
+
 
 
 

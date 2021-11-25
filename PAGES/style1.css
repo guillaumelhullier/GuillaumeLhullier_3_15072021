@@ -18,7 +18,7 @@
 
 body {
   margin: 0px;
-  max-width: 500px;
+  max-width: 800px;
   min-width: none;
   margin: auto;
   position: relative;
@@ -142,6 +142,10 @@ main {
   width: 85%;
 }
 
+.mainc:hover .mainc1 {
+  text-overflow: ellipsis;
+}
+
 .mainc1 {
   font-size: 20px;
   font-weight: bold;
@@ -244,6 +248,14 @@ main {
 
 .maind:hover .maind4 {
   width: 85%;
+}
+
+.maind:hover .maind1 {
+  text-overflow: ellipsis;
+}
+
+.maind:hover .maind2 p {
+  text-overflow: ellipsis;
 }
 
 .maind1 {
@@ -416,6 +428,14 @@ main {
   width: 85%;
 }
 
+.mainf:hover .mainf1 {
+  text-overflow: ellipsis;
+}
+
+.mainf:hover .mainf2 p {
+  text-overflow: ellipsis;
+}
+
 .mainf1 {
   font-size: 20px;
   font-weight: bold;
@@ -494,6 +514,14 @@ main {
   width: 85%;
 }
 
+.maing:hover .maing1 {
+  text-overflow: ellipsis;
+}
+
+.maing:hover .maing2 p {
+  text-overflow: ellipsis;
+}
+
 .maing1 {
   font-size: 20px;
   font-weight: bold;
@@ -570,6 +598,14 @@ main {
 
 .mainh:hover .mainh4 {
   width: 85%;
+}
+
+.mainh:hover .mainh1 {
+  text-overflow: ellipsis;
+}
+
+.mainh:hover .mainh2 {
+  text-overflow: ellipsis;
 }
 
 .mainh1 {
@@ -658,11 +694,23 @@ main {
   width: 85%;
 }
 
+.maini:hover .maini1 {
+  text-overflow: ellipsis;
+}
+
+.maini:hover .maini2 p {
+  text-overflow: ellipsis;
+}
+
 .maini1 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+
+.maini:hover .maini1 {
+  text-overflow: ellipsis;
 }
 
 .maini2 {
@@ -924,5 +972,35 @@ footer {
 footer p {
   margin-top: 0px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 380px) {
+  .mainc {
+    font-size: smaller;
+  }
+  .maind {
+    font-size: smaller;
+  }
+  .mainf {
+    font-size: smaller;
+  }
+  .maing {
+    font-size: smaller;
+  }
+  .mainh {
+    font-size: smaller;
+  }
+  .mainh .maini {
+    font-size: smaller;
+  }
+  .mainh .maini {
+    font-size: smaller;
+  }
+  .mainh .mainj {
+    font-size: smaller;
+  }
+  .mainh .maink {
+    font-size: smaller;
+  }
 }
 /*# sourceMappingURL=style1.css.map */

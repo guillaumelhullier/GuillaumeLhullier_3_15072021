@@ -18,7 +18,7 @@ $header:#ffffff;
 
 body{    
     margin:0px;  
-    max-width: 500px; 
+    max-width: 800px; 
     min-width: none;     
     margin: auto;   
     position: relative;  
@@ -126,6 +126,12 @@ main{
 .maind:hover .maind4{
     width: 85%;
 }
+.maind:hover .maind1{
+    text-overflow: ellipsis;
+}
+.maind:hover .maind2 p{
+    text-overflow: ellipsis;
+}
 .maind1{
     @include mainplat1;
 }
@@ -159,6 +165,12 @@ main{
 }
 .maine:hover .maine4{
     width: 85%;
+}
+.maine:hover .maine1{
+    text-overflow: ellipsis;
+}
+.maine:hover .maine2 p {
+    text-overflow: ellipsis;
 }
 .maine1{
     @include mainplat1;

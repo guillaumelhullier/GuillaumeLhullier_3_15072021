@@ -459,6 +459,66 @@ footer{
 footer p{
     @include footerp;
 }
+@media screen  and ( max-width: 380px)
+ {
+    .mainc{
+        font-size: 10px;
+    }
+    .mainc1{
+        font-size: 15px;
+    }
+    .maind{
+        font-size: 10px;
+    }
+    .maind1{
+        font-size: 15px;
+    }
+    .mainf{
+        font-size: 10px;
+    }
+    .mainf1{
+        font-size: 15px;
+    }
+    .maing{
+        font-size: 10px;
+    }
+    .maing1{
+        font-size: 15px;
+    }
+    .mainh{
+        font-size: 10px;
+    }    
+    .mainh1{
+        font-size: 15px;
+    }
+    .maini{
+        font-size: 10px;
+    }
+    .maini1{
+        font-size: 15px;
+    }
+    .mainj{
+        font-size: 10px;
+    }
+    .mainj1{
+        font-size: 15px;
+    }
+    
+    .maink{
+        font-size: 10px;
+    }
+    .maink1{
+        font-size: 15px;
+    }
+    .maine{
+        font-size: 10px;
+    }
+    .maine1{
+        font-size: 15px;
+    }
+    }
+
+
 
 
 

@@ -1051,66 +1051,66 @@ footer p {
   font-weight: bold;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
   .mainc {
-    font-size: x-small;
+    font-size: 10px;
   }
   .mainc1 {
-    font-size: small;
+    font-size: 15px;
   }
   .maind {
-    font-size: x-small;
+    font-size: 10px;
   }
   .maind1 {
-    font-size: small;
+    font-size: 15px;
   }
   .maine {
-    font-size: x-small;
+    font-size: 10px;
   }
   .maine1 {
-    font-size: small;
+    font-size: 15px;
   }
   .mainf {
-    font-size: x-small;
+    font-size: 10px;
   }
   .mainf1 {
-    font-size: small;
+    font-size: 15px;
   }
   .maing {
-    font-size: x-small;
+    font-size: 10px;
   }
   .maing1 {
-    font-size: small;
+    font-size: 15px;
   }
   .mainh {
-    font-size: x-small;
+    font-size: 10px;
   }
   .mainh1 {
-    font-size: small;
+    font-size: 15px;
   }
   .maini {
-    font-size: x-small;
+    font-size: 10px;
   }
   .maini1 {
-    font-size: small;
+    font-size: 15px;
   }
   .mainj {
-    font-size: x-small;
+    font-size: 10px;
   }
   .mainj1 {
-    font-size: small;
+    font-size: 15px;
   }
   .maink {
-    font-size: x-small;
+    font-size: 10px;
   }
   .maink1 {
-    font-size: x-small;
+    font-size: 15px;
   }
-  .mainl2 {
-    font-size: x-small;
+  .mainl {
+    font-size: 10px;
   }
   .mainl1 {
-    font-size: x-small;
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=style2.css.map */

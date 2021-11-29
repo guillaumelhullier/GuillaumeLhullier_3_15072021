@@ -117,10 +117,9 @@ main {
 .mainc:hover .mainc4{
     width: 85%;
 }
-.mainc:hover .mainc1{
-    text-overflow: ellipsis;    
-}
-.mainc:hover .mainc2 p{
+.mainc2 p{
+    white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 .mainc1{
@@ -238,11 +237,15 @@ main {
  .mainl:hover .mainl4{
      width: 85%;
  }
- .mainl:hover .mainl1{
-     text-overflow: ellipsis;
+ .mainl1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
  }
- .mail:hover .mainl2 p{
-     text-overflow: ellipsis;
+.mainl2 p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
  }
  .mainl1{
      @include mainplat1;
@@ -277,11 +280,10 @@ main {
  .mainf:hover .mainf4{
         width: 85%;
  }
- .mainf:hover .mainf1{
-     text-overflow: ellipsis;
- }
- .mainf:hover .mainf2 p{
-     text-overflow: ellipsis;
+ .mainf1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
  }
  .mainf{
     animation-name: clarte;
@@ -392,11 +394,15 @@ main {
  .maini:hover .maini4{
      width: 85%;
  }
- .maini:hover .maini1{
-     text-overflow: ellipsis;
+ .maini1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
  }
- .maini:hover .maini2 p{
-    text-overflow: ellipsis
+ .maini2 p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
  }
  .maini1{
      @include mainplat1;
@@ -468,6 +474,11 @@ main {
  }
  .maink1{
      @include mainplat1;
+ }
+ .maink1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
  }
 .maink2{
     @include mainplat2;

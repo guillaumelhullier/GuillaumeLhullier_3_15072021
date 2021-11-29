@@ -151,10 +151,9 @@ main{
 .maind:hover .maind4{
     width: 85%;
 }
-.maind:hover .maind1{
-    text-overflow: ellipsis;
-}
-.maind:hover .maind2 p{
+.maind1{
+    white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 .maind1{
@@ -265,6 +264,11 @@ main{
     margin-bottom: 0px;
     margin-top: 0px;    
 }
+.mainf1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .mainf11{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -340,6 +344,11 @@ main{
 .mainh1{
     @include mainplat1;
 }
+.mainh1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .mainh2{
     @include mainplat2;
 }
@@ -373,6 +382,11 @@ main{
 }
 .maini:hover .maini4{
     width: 85%;
+}
+.maini1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .maini1{
     @include mainplat1;

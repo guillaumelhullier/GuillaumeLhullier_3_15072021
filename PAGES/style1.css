@@ -174,17 +174,17 @@ main {
   width: 85%;
 }
 
-.mainc:hover .mainc1 {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .mainc1 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+
+.mainc1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .mainc2 {
@@ -284,12 +284,6 @@ main {
   width: 85%;
 }
 
-.maind:hover .maind1 {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .maind:hover .maind2 p {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -301,6 +295,12 @@ main {
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+
+.maind1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .maind2 {
@@ -449,6 +449,18 @@ main {
           animation-duration: 7s;
 }
 
+.mainf1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mainf5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .mainf:hover {
   background-color: #ffffff;
   -webkit-box-shadow: 2px 2px 30px #cccccc;
@@ -464,18 +476,6 @@ main {
 
 .mainf:hover .mainf4 {
   width: 85%;
-}
-
-.mainf:hover .mainf1 {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.mainf:hover .mainf2 p {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .mainf1 {
@@ -556,13 +556,7 @@ main {
   width: 85%;
 }
 
-.maing:hover .maing1 {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.maing:hover .maing2 p {
+.maing1 {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -646,13 +640,13 @@ main {
   width: 85%;
 }
 
-.mainh:hover .mainh1 {
+.mainh1 {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
 
-.mainh:hover .mainh2 {
+.mainh2 {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -744,7 +738,9 @@ main {
   width: 85%;
 }
 
-.maini:hover .maini1 {
+.maini1 {
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -1051,6 +1047,12 @@ footer p {
   }
   .mainh .maink {
     font-size: smaller;
+  }
+  .mainh .mainc1 {
+    width: 375px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
 /*# sourceMappingURL=style1.css.map */

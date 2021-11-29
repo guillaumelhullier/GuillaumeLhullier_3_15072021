@@ -202,11 +202,9 @@ main {
   width: 85%;
 }
 
-.mainc:hover .mainc1 {
-  text-overflow: ellipsis;
-}
-
-.mainc:hover .mainc2 p {
+.mainc2 p {
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -463,11 +461,15 @@ main {
   width: 85%;
 }
 
-.mainl:hover .mainl1 {
+.mainl1 {
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.mail:hover .mainl2 p {
+.mainl2 p {
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -550,11 +552,9 @@ main {
   width: 85%;
 }
 
-.mainf:hover .mainf1 {
-  text-overflow: ellipsis;
-}
-
-.mainf:hover .mainf2 p {
+.mainf1 {
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -807,11 +807,15 @@ main {
   width: 85%;
 }
 
-.maini:hover .maini1 {
+.maini1 {
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.maini:hover .maini2 p {
+.maini2 p {
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -976,6 +980,12 @@ main {
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+
+.maink1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .maink2 {

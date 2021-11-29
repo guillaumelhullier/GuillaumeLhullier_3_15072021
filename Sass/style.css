@@ -7,6 +7,12 @@ body {
   opacity: 1;
 }
 
+a {
+  color: black;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
 header {
   margin-top: 0px;
 }
@@ -93,6 +99,8 @@ header {
 
 .site {
   background-color: #ffffff;
+  max-width: 1100px;
+  margin: auto;
 }
 
 .header {
@@ -195,7 +203,7 @@ aside {
 .fonctionnement {
   font-weight: bold;
   font-size: 20px;
-  margin: 0px;
+  margin-bottom: 10px;
 }
 
 .choisisseza {
@@ -213,6 +221,9 @@ aside {
   margin-left: 20px;
   margin-bottom: 20px;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .choisisseza:hover {
@@ -232,6 +243,7 @@ aside {
   position: absolute;
   left: -15px;
   top: 14px;
+  color: white;
 }
 
 .choisissezb {
@@ -253,7 +265,9 @@ aside {
           box-shadow: 2px 2px 25px #f6f6f6;
   width: 250px;
   position: relative;
-  margin-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
 }
 
 .composeza:hover {
@@ -273,6 +287,7 @@ aside {
   position: absolute;
   left: -15px;
   top: 14px;
+  color: white;
 }
 
 .composezb {
@@ -295,6 +310,8 @@ aside {
   width: 250px;
   position: relative;
   margin-left: 20px;
+  margin: auto;
+  width: 80%;
 }
 
 .degusteza:hover {
@@ -315,6 +332,7 @@ aside {
   position: absolute;
   left: -15px;
   top: 14px;
+  color: white;
 }
 
 .store {
@@ -344,6 +362,8 @@ main img {
   width: 500px;
   height: 400px;
   border-radius: 20px 20px 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .coeur {

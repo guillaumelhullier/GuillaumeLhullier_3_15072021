@@ -20,6 +20,9 @@ body{
     margin: auto;   
     position: relative;  
 }
+a{
+    text-decoration: none;
+}
 header{
     width: 100%;       
 }
@@ -33,6 +36,27 @@ header{
     font-size: 30px;
     font-family: 'Shrikhand', cursive;
 }
+.coeur{    
+    position: relative;
+}
+.fa-heart-o{
+    position: absolute;
+    opacity:1;
+    z-index: 1;
+    background-color: $fond;
+}
+.fa-heart{
+    background: linear-gradient( 45deg, #ff79da, #9356dc);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    position: absolute;
+    left: 0px;    
+    z-index: 0;
+}
+.fa-heart-o:hover{
+    opacity: 0;
+    transition: opacity 250ms;
+}
 .header2{
     justify-content: center;
 }
@@ -42,6 +66,7 @@ header{
 header img{
     width: 100%;
     height: 230px;
+    object-fit: cover;
 }
 main{
     
@@ -107,6 +132,8 @@ main{
 }
 .mainc:hover .mainc1{
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .mainc1{
     font-size: 20px;
@@ -180,9 +207,13 @@ main{
 }
 .maind:hover .maind1{
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .maind:hover .maind2 p{
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .maind1{
         font-size: 20px;
@@ -304,9 +335,13 @@ main{
 }
 .mainf:hover .mainf1{
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .mainf:hover .mainf2 p {
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .mainf1{
         font-size: 20px;
@@ -363,9 +398,13 @@ main{
 }
 .maing:hover .maing1{
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .maing:hover .maing2 p {
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .maing1{
         font-size: 20px;
@@ -422,9 +461,13 @@ main{
 }
 .mainh:hover .mainh1{
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .mainh:hover .mainh2{
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .mainh1{
         font-size: 20px;

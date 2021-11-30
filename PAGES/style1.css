@@ -593,6 +593,12 @@ main {
   transition: width 2s;
 }
 
+.maing5 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .mainh {
   font-family: 'Roboto', sans-serif;
   width: 80%;
@@ -741,10 +747,6 @@ main {
 .maini1 {
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.maini:hover .maini2 p {
   text-overflow: ellipsis;
 }
 

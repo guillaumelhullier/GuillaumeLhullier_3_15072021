@@ -422,6 +422,11 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.maing5{    
+    white-space: nowrap; 
+    text-overflow: ellipsis;    
+    overflow: hidden;
+}
 .mainh{    
     font-family: 'Roboto', sans-serif;    
     width: 80%;

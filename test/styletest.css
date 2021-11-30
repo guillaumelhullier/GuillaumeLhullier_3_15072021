@@ -1,121 +1,18 @@
-.body {
-  position: relative;
+.text {
+  width: 20%;
+  border-style: solid;
+  border-color: blue;
 }
 
-.container1 {
-  background-color: red;
-  height: 100%;
-  width: 100%;
+.text1 {
+  white-space: nowrap;
   overflow: hidden;
-  position: absolute;
-  z-index: 0;
-  opacity: 0;
+  text-overflow: ellipsis;
 }
 
-.container2 {
-  right: 30px;
-}
-
-.container2 {
-  background-color: blue;
-  width: 100px;
-  height: 100px;
-  -webkit-transition: -webkit-transform 3s;
-  transition: -webkit-transform 3s;
-  transition: transform 3s;
-  transition: transform 3s, -webkit-transform 3s;
-  -webkit-transition: width 2s;
-  transition: width 2s;
-  opacity: 0;
-}
-
-.container1:hover .container2 {
-  color: white;
-  -webkit-transform: translate(-30px);
-          transform: translate(-30px);
-  width: 200px;
-}
-
-.loader {
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  top: 0px;
-  -webkit-animation: spin;
-          animation: spin;
-  -webkit-animation-duration: 3000ms;
-          animation-duration: 3000ms;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  position: fixed;
-}
-
-.lettre {
-  color: #484848;
-  font-size: 80px;
-  letter-spacing: 20px;
-  -webkit-animation: flash;
-          animation: flash;
-  -webkit-animation-duration: 1000ms;
-          animation-duration: 1000ms;
-  -webkit-animation-iteration-count: 4;
-          animation-iteration-count: 4;
-}
-
-@-webkit-keyframes flash {
-  0% {
-    color: #fff900;
-    text-shadow: 0 0 15px #fff900;
-  }
-  90% {
-    color: #484848;
-    text-shadow: 0 0 15px #fff900;
-  }
-  100% {
-    color: #fff900;
-    text-shadow: 0 0 15px #fff900;
-  }
-}
-
-@keyframes flash {
-  0% {
-    color: #fff900;
-    text-shadow: 0 0 15px #fff900;
-  }
-  90% {
-    color: #484848;
-    text-shadow: 0 0 15px #fff900;
-  }
-  100% {
-    color: #fff900;
-    text-shadow: 0 0 15px #fff900;
-  }
-}
-
-@-webkit-keyframes spin {
-  99% {
-    z-index: 1;
-  }
-  100% {
-    z-index: -1;
-  }
-}
-
-@keyframes spin {
-  99% {
-    z-index: 1;
-  }
-  100% {
-    z-index: -1;
-  }
+.text2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 /*# sourceMappingURL=styletest.css.map */

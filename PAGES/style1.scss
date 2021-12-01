@@ -423,9 +423,9 @@ main{
     transition: width 2s;
 }
 .maing5{    
-    white-space: nowrap; 
-    text-overflow: ellipsis;    
+    white-space: nowrap;     
     overflow: hidden;
+    text-overflow: ellipsis;    
 }
 .mainh{    
     font-family: 'Roboto', sans-serif;    
@@ -668,22 +668,22 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $secondaire;  
+    background-color:   #dd6eda;
     display: flex;      
-    width: 300px;
+    width: 200px;
     height: 50px;
     margin: auto;  
     margin-top: 50px;     
     text-align: center;
     border-radius: 50px;
     color: #ffffff;
-    font-size: 40px;
-    box-shadow: 2px 2px 15px $primaire;
+    font-size: 20px;
+    box-shadow: 2px 2px 15px #dd6eda;
     font-weight: bold;                
 }
 .commander:hover{
-    background-color: #fface8;
-    box-shadow: 2px 2px 15px #ff46cc;
+    background-color: #e797e5;
+    box-shadow: 2px 2px 15px #d345cf;
     transition: 250ms;    
 }
 footer{

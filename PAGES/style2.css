@@ -1022,25 +1022,25 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ff79da;
+  background-color: #dd6eda;
   display: flex;
-  width: 300px;
+  width: 200px;
   height: 50px;
   text-align: center;
   border-radius: 50px;
   color: #ffffff;
-  -webkit-box-shadow: 2px 2px 15px #ff79da;
-          box-shadow: 2px 2px 15px #ff79da;
+  -webkit-box-shadow: 2px 2px 15px #dd6eda;
+          box-shadow: 2px 2px 15px #dd6eda;
   font-weight: bold;
   margin: auto;
-  font-size: 40px;
+  font-size: 20px;
   margin-top: 50px;
 }
 
 .commander:hover {
-  background-color: #fface8;
-  -webkit-box-shadow: 2px 2px 15px #ff46cc;
-          box-shadow: 2px 2px 15px #ff46cc;
+  background-color: #e797e5;
+  -webkit-box-shadow: 2px 2px 15px #d345cf;
+          box-shadow: 2px 2px 15px #d345cf;
   -webkit-transition: 250ms;
   transition: 250ms;
 }

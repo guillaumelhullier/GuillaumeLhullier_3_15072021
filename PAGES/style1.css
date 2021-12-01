@@ -595,8 +595,8 @@ main {
 
 .maing5 {
   white-space: nowrap;
-  text-overflow: ellipsis;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .mainh {
@@ -951,25 +951,25 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ff79da;
+  background-color: #dd6eda;
   display: flex;
-  width: 300px;
+  width: 200px;
   height: 50px;
   margin: auto;
   margin-top: 50px;
   text-align: center;
   border-radius: 50px;
   color: #ffffff;
-  font-size: 40px;
-  -webkit-box-shadow: 2px 2px 15px #9356DC;
-          box-shadow: 2px 2px 15px #9356DC;
+  font-size: 20px;
+  -webkit-box-shadow: 2px 2px 15px #dd6eda;
+          box-shadow: 2px 2px 15px #dd6eda;
   font-weight: bold;
 }
 
 .commander:hover {
-  background-color: #fface8;
-  -webkit-box-shadow: 2px 2px 15px #ff46cc;
-          box-shadow: 2px 2px 15px #ff46cc;
+  background-color: #e797e5;
+  -webkit-box-shadow: 2px 2px 15px #d345cf;
+          box-shadow: 2px 2px 15px #d345cf;
   -webkit-transition: 250ms;
   transition: 250ms;
 }

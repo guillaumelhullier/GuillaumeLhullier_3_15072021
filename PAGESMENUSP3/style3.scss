@@ -19,9 +19,12 @@ $header:#ffffff;
 body{    
     margin:0px;  
     max-width: 800px; 
-    min-width: none;     
+    min-width: 360px;     
     margin: auto;   
     position: relative;  
+}
+body{
+    font-family: 'Roboto', sans-serif;
 }
 a{
     text-decoration: none;
@@ -35,8 +38,8 @@ header{
     align-items: center;
     padding-left: 20px;  
     width: 65%;
-    height: 60px;
-    font-size: 30px;
+    height: 70px;
+    font-size: 25px;
     font-family: 'Shrikhand', cursive;
 }
 .header2{
@@ -80,10 +83,10 @@ main{
 .maina p{
     @include maintitrep;
 }
-.mainb{
+.mainb {
     @include mainchoix;
 }
-.mainc{
+.mainc {
     @include mainplat;
 }
 .chek{
@@ -91,14 +94,14 @@ main{
     align-items: center;
     justify-content: center;
     min-width: 40px;
-    background-color:$tertiaire;
-    height: 55px;
-    position: absolute;
+    background-color:$tertiaire;     
+    position: absolute; 
     right: -40px;
+    height: 55px;
     transition: transform 2s;
-  }
-
-.fa-check-circle{
+    
+ }  
+ .fa-check-circle{
     font-size: larger;
     color: #ffffff;       
 }
@@ -118,12 +121,17 @@ main{
     width: 85%;
 }
 .mainc1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mainc1{
     @include mainplat1;
 }
 .mainc2{
     @include mainplat2;
 }
-.mainc2 p{
+.mainc2 p {
     @include mainplat2p;
 }
 .mainc3{
@@ -146,7 +154,7 @@ main{
     transition: all 250ms;
 }
 .maind:hover .chek{
-    transform:translate(-40px);
+    transform: translate(-40px);
 }
 .maind:hover .maind4{
     width: 85%;
@@ -190,20 +198,14 @@ main{
 .maine:hover .maine4{
     width: 85%;
 }
-.maine:hover .maine1{
-    text-overflow: ellipsis;
-}
-.maine:hover .maine2 p {
-    text-overflow: ellipsis;
-}
 .maine1{
     @include mainplat1;
 }
 .maine2{
     @include mainplat2;
 }
-.maine2 p{
-    @include mainplat2p;
+.maine2 p {
+    @include mainplat2p
 }
 .maine3{
     font-weight: bold;
@@ -216,71 +218,41 @@ main{
     @include mainchoix;
 }
 .mainf{
-    font-family: 'Roboto', sans-serif;    
-    width: 80%;
-    border-radius: 20px;    
-    margin: auto;
-    background-color: $header;
-    margin-top: 15px;
-    box-shadow: 2px 2px 30px $fond;
-    padding-left: 10px;
-    padding-right: 0px; 
-    height: 70px;
-    margin-bottom: 15px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-.chek1{
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 40px;
-    background-color:$tertiaire;    
-    position: absolute;
-    right: -40px;
-    transition: transform 2s;
-}
-.mainf{
-    animation-name: clarte;
-    animation-duration: 7s;
+    @include mainplat;    
 }
 .mainf:hover{
     background-color: $header;
     box-shadow: 2px 2px 30px #cccccc;
     transition: all 250ms;
 }
-.mainf:hover .chek1{
+.mainf:hover .chek{
     transform: translate(-40px);
 }
 .mainf:hover .mainf4{
     width: 85%;
 }
-.mainf1{
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 0px;
-    margin-top: 0px;    
+.mainf{
+    animation-name: clarte;
+    animation-duration: 7s;
 }
 .mainf1{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.mainf11{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-weight: bold;
+.mainf1{
+    @include mainplat1;
 }
 .mainf2{
-    display: flex;
-    justify-content: space-between; 
+    @include mainplat2;
 }
 .mainf2 p{
-    margin-top: 0px;
-    margin-bottom: 0px;
+    @include mainplat2p;
+}
+.mainf2 p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .mainf3{
     font-weight: bold;
@@ -289,8 +261,15 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.mainf5{
+    width: 80%;
+}
 .maing{
     @include mainplat;
+}
+.maing{
+    animation-name: clarte;
+    animation-duration: 7s;
 }
 .maing:hover{
     background-color: $header;
@@ -303,18 +282,24 @@ main{
 .maing:hover .maing4{
     width: 85%;
 }
-.maing{
-    animation-name: clarte;
-    animation-duration: 7s;
+.maing1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .maing1{
-    @include mainplat1;
+    @include mainplat1;    
 }
 .maing2{
     @include mainplat2;
 }
-.maing2 p{
+.maing2 p {
     @include mainplat2p;
+}
+.maing2 p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .maing3{
     font-weight: bold;
@@ -326,9 +311,18 @@ main{
 .mainh{
     @include mainplat;
 }
+.maing5{
+    width: 80%;
+}
 .mainh{
     animation-name: clarte;
     animation-duration: 7s;
+}
+.maing5 {
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .mainh:hover{
     background-color: $header;
@@ -344,16 +338,11 @@ main{
 .mainh1{
     @include mainplat1;
 }
-.mainh1{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 .mainh2{
-    @include mainplat2;
+    @include mainplat2
 }
 .mainh2 p{
-    @include mainplat2p;
+    @include mainplat2p
 }
 .mainh3{
     font-weight: bold;
@@ -378,15 +367,10 @@ main{
     transition: all 250ms;
 }
 .maini:hover .chek{
-    transform: translate(-40px)
+    transform: translate(-40px);
 }
 .maini:hover .maini4{
     width: 85%;
-}
-.maini1{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 .maini1{
     @include mainplat1;
@@ -422,6 +406,14 @@ main{
 .mainj:hover .mainj4{
     width: 85%;
 }
+ .mainj1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+.mainj:hover .mainj2 p{
+    text-overflow: ellipsis;
+}
 .mainj1{
     @include mainplat1;
 }
@@ -429,7 +421,7 @@ main{
     @include mainplat2;
 }
 .mainj2 p{
-    @include mainplat2p;
+    @include mainplat2p
 }
 .mainj3{
     font-weight: bold;
@@ -437,6 +429,11 @@ main{
 .mainj4{
     width: 95%;
     transition: width 2s;
+}
+.mainj5{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .maink{
     @include mainplat;
@@ -456,14 +453,24 @@ main{
 .maink:hover .maink4{
     width: 85%;
 }
+ .maink1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .maink1{
     @include mainplat1;
 }
 .maink2{
     @include mainplat2;
 }
-.maink2 p{
+.maink2 p {
     @include mainplat2p
+}
+.maink2 p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .maink3{
     font-weight: bold;
@@ -472,12 +479,15 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.maink5{
+     width: 80%;
+    }
 .commander{
     @include bouton;
 }
 .commander:hover{
     background-color: #e797e5;
-    box-shadow: 2px 2px 15px #d345Cf;
+    box-shadow: 2px 2px 15px #d345cf;
     transition: 250ms;    
 }
 footer{
@@ -489,73 +499,22 @@ footer{
 .footerb{
     @include footerb;
 }
+.footerb{
+    margin-top: 0px;
+}
 .footerc{
     @include footerc;
 }
 .footerd{
     @include footerd;
+}.footerd{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 footer p{
     @include footerp;
 }
-@media screen  and ( max-width: 380px)
- {
-    .mainc{
-        font-size: 10px;
-    }
-    .mainc1{
-        font-size: 15px;
-    }
-    .maind{
-        font-size: 10px;
-    }
-    .maind1{
-        font-size: 15px;
-    }
-    .mainf{
-        font-size: 10px;
-    }
-    .mainf1{
-        font-size: 15px;
-    }
-    .maing{
-        font-size: 10px;
-    }
-    .maing1{
-        font-size: 15px;
-    }
-    .mainh{
-        font-size: 10px;
-    }    
-    .mainh1{
-        font-size: 15px;
-    }
-    .maini{
-        font-size: 10px;
-    }
-    .maini1{
-        font-size: 15px;
-    }
-    .mainj{
-        font-size: 10px;
-    }
-    .mainj1{
-        font-size: 15px;
-    }
-    
-    .maink{
-        font-size: 10px;
-    }
-    .maink1{
-        font-size: 15px;
-    }
-    .maine{
-        font-size: 10px;
-    }
-    .maine1{
-        font-size: 15px;
-    }
-    }
+
 
 
 

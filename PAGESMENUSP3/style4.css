@@ -19,17 +19,56 @@
 body {
   margin: 0px;
   max-width: 800px;
+  min-width: 360px;
   min-width: none;
   margin: auto;
   position: relative;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
   width: 100%;
 }
 
-a {
-  text-decoration: none;
+.header1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  width: 65%;
+  height: 70px;
+  font-size: 25px;
+  font-family: 'Shrikhand', cursive;
+}
+
+.header2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header img {
+  width: 100%;
+  height: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fa-arrow-left {
+  color: black;
 }
 
 .coeur {
@@ -58,45 +97,11 @@ a {
   transition: opacity 250ms;
 }
 
-.header1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 20px;
-  width: 65%;
-  height: 60px;
-  font-size: 30px;
-  font-family: 'Shrikhand', cursive;
-}
-
-.header2 {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-header img {
-  width: 100%;
-  height: 230px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.fa-arrow-left {
-  color: black;
-}
-
 main {
   margin: 0px;
   width: auto;
   position: absolute;
-  top: 250px;
+  top: 290px;
   left: 0px;
   width: 100%;
   border-radius: 30px;
@@ -119,6 +124,7 @@ main {
 .maina p {
   font-family: 'Shrikhand', cursive;
   margin-top: 0px;
+  margin-bottom: 40px;
 }
 
 .mainb {
@@ -127,6 +133,7 @@ main {
   border-bottom-color: #99e2d0;
   width: 40px;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .mainc {
@@ -200,12 +207,6 @@ main {
 
 .mainc:hover .mainc4 {
   width: 85%;
-}
-
-.mainc2 p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .mainc1 {
@@ -287,6 +288,12 @@ main {
 }
 
 .maind1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.maind1 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
@@ -313,8 +320,8 @@ main {
 
 .maind4 {
   width: 95%;
-  -webkit-transition: width 2S;
-  transition: width 2S;
+  -webkit-transition: width 2s;
+  transition: width 2s;
 }
 
 .maine {
@@ -340,11 +347,11 @@ main {
   position: relative;
 }
 
-.maine1 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 0px;
-  margin-top: 0px;
+.maine {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .maine:hover {
@@ -364,21 +371,19 @@ main {
   width: 85%;
 }
 
-.maine:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
+.maine:hover .maine1 {
+  text-overflow: ellipsis;
 }
 
-.maine:hover .maie4 {
-  -webkit-transition: width 2s;
-  transition: width 2s;
+.maine:hover .maine2 p {
+  text-overflow: ellipsis;
 }
 
-.maine {
-  -webkit-animation-name: clarte;
-          animation-name: clarte;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+.maine1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .maine2 {
@@ -405,111 +410,13 @@ main {
   transition: width 2s;
 }
 
-.mainl {
-  font-family: 'Roboto', sans-serif;
-  width: 80%;
-  border-radius: 20px;
-  margin: auto;
-  background-color: #ffffff;
-  margin-top: 15px;
-  -webkit-box-shadow: 2px 2px 30px #f6f6f6;
-          box-shadow: 2px 2px 30px #f6f6f6;
-  padding-left: 10px;
-  padding-right: 0px;
-  height: 55px;
-  margin-bottom: 15px;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.mainl {
-  -webkit-animation-name: clarte;
-          animation-name: clarte;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-}
-
-.mainl:hover {
-  background-color: #ffffff;
-  -webkit-box-shadow: 2px 2px 30px #cccccc;
-          box-shadow: 2px 2px 30px #cccccc;
-  -webkit-transition: all 250ms;
-  transition: all 250ms;
-}
-
-.mainl:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
-}
-
-.mainl:hover .mainl4 {
-  width: 85%;
-}
-
-.mainl:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
-}
-
-.mainl:hover .mainl4 {
-  width: 85%;
-}
-
-.mainl1 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.mainl2 p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.mainl1 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-
-.mainl2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.mainl2 p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.mainl3 {
-  font-weight: bold;
-}
-
-.mainl4 {
-  width: 95%;
-  -webkit-transition: width 2s;
-  transition: width 2s;
-}
-
 .mainb1 {
   font-family: 'Roboto', sans-serif;
   border-bottom-style: solid;
   border-bottom-color: #99e2d0;
   width: 40px;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .mainf {
@@ -523,7 +430,7 @@ main {
           box-shadow: 2px 2px 30px #f6f6f6;
   padding-left: 10px;
   padding-right: 0px;
-  height: 55px;
+  height: 70px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -533,6 +440,34 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+}
+
+.chek1 {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 40px;
+  background-color: #99e2d0;
+  position: absolute;
+  right: -40px;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+
+.mainf {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
 }
 
 .mainf:hover {
@@ -543,7 +478,7 @@ main {
   transition: all 250ms;
 }
 
-.mainf:hover .chek {
+.mainf:hover .chek1 {
   -webkit-transform: translate(-40px);
           transform: translate(-40px);
 }
@@ -553,23 +488,22 @@ main {
 }
 
 .mainf1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.mainf1 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.mainf {
-  -webkit-animation-name: clarte;
-          animation-name: clarte;
-  -webkit-animation-duration: 7s;
-          animation-duration: 7s;
-}
-
-.mainf1 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 0px;
+.mainf11 {
   margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
 }
 
 .mainf2 {
@@ -619,13 +553,6 @@ main {
   position: relative;
 }
 
-.maing {
-  -webkit-animation-name: clarte;
-          animation-name: clarte;
-  -webkit-animation-duration: 7s;
-          animation-duration: 7s;
-}
-
 .maing:hover {
   background-color: #ffffff;
   -webkit-box-shadow: 2px 2px 30px #cccccc;
@@ -641,6 +568,13 @@ main {
 
 .maing:hover .maing4 {
   width: 85%;
+}
+
+.maing {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
 }
 
 .maing1 {
@@ -728,6 +662,12 @@ main {
   margin-top: 0px;
 }
 
+.mainh1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .mainh2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -758,6 +698,7 @@ main {
   border-bottom-color: #99e2d0;
   width: 40px;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .maini {
@@ -808,12 +749,6 @@ main {
 }
 
 .maini1 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.maini2 p {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -982,12 +917,6 @@ main {
   margin-top: 0px;
 }
 
-.maink1 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .maink2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1039,15 +968,15 @@ main {
 
 .commander:hover {
   background-color: #e797e5;
-  -webkit-box-shadow: 2px 2px 15px #d345cf;
-          box-shadow: 2px 2px 15px #d345cf;
+  -webkit-box-shadow: 2px 2px 15px #d345Cf;
+          box-shadow: 2px 2px 15px #d345Cf;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
 
 footer {
   position: absolute;
-  top: 1480px;
+  top: 1400px;
   left: 0px;
   z-index: 2;
   background-color: #353535;
@@ -1056,6 +985,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   width: 100%;
+  height: 330px;
 }
 
 .footera {
@@ -1073,6 +1003,11 @@ footer {
   font-weight: bold;
   margin-top: 10px;
   margin-left: 30px;
+  height: 25px;
+}
+
+.footerb {
+  margin-top: 0px;
 }
 
 .footerc {
@@ -1086,73 +1021,16 @@ footer {
   margin-left: 30px;
   color: #ffffff;
   text-decoration: none;
+  height: 25px;
+}
+
+.footerd {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 footer p {
   margin-top: 0px;
   font-weight: bold;
 }
-
-@media screen and (max-width: 380px) {
-  .mainc {
-    font-size: 10px;
-  }
-  .mainc1 {
-    font-size: 15px;
-  }
-  .maind {
-    font-size: 10px;
-  }
-  .maind1 {
-    font-size: 15px;
-  }
-  .maine {
-    font-size: 10px;
-  }
-  .maine1 {
-    font-size: 15px;
-  }
-  .mainf {
-    font-size: 10px;
-  }
-  .mainf1 {
-    font-size: 15px;
-  }
-  .maing {
-    font-size: 10px;
-  }
-  .maing1 {
-    font-size: 15px;
-  }
-  .mainh {
-    font-size: 10px;
-  }
-  .mainh1 {
-    font-size: 15px;
-  }
-  .maini {
-    font-size: 10px;
-  }
-  .maini1 {
-    font-size: 15px;
-  }
-  .mainj {
-    font-size: 10px;
-  }
-  .mainj1 {
-    font-size: 15px;
-  }
-  .maink {
-    font-size: 10px;
-  }
-  .maink1 {
-    font-size: 15px;
-  }
-  .mainl {
-    font-size: 10px;
-  }
-  .mainl1 {
-    font-size: 15px;
-  }
-}
-/*# sourceMappingURL=style2.css.map */
+/*# sourceMappingURL=style4.css.map */

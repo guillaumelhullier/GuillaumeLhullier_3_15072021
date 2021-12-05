@@ -15,10 +15,14 @@ $header:#ffffff;
 }
 body{    
     margin:0px;  
-    max-width: 800px; 
+    max-width: 800px;
+    min-width: 350px; 
     min-width: none;     
     margin: auto;   
-    position: relative;  
+    position: relative;     
+}
+body{
+    font-family: 'Roboto', sans-serif;
 }
 a{
     text-decoration: none;
@@ -33,8 +37,9 @@ header{
     padding-left: 20px;  
     width: 65%;
     height: 60px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Shrikhand', cursive;
+    height: 70px;
 }
 .coeur{    
     position: relative;
@@ -73,7 +78,7 @@ main{
     margin: 0px;
     width:auto;
     position: absolute;
-    top: 250px;
+    top: 290px;
     left:0px;
     width: 100%;
     border-radius: 30px;
@@ -86,18 +91,20 @@ main{
     display: flex;
     justify-content: space-around;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .maina p{
     font-family: 'Shrikhand', cursive;
-    margin-top: 0px;    
+    margin-top: 0px;   
+    margin-bottom: 40px; 
 }
 .mainb{
     font-family: 'Roboto', sans-serif;
     border-bottom-style: solid;
     border-bottom-color: $tertiaire;
     width: 40px; 
-    margin-left: 10px;   
+    margin-left: 10px;  
+    margin-bottom: 20px; 
 }
 .mainc{    
     font-family: 'Roboto', sans-serif;    
@@ -112,7 +119,8 @@ main{
     height: 55px;
     margin-bottom: 15px;     
     position:relative; 
-    overflow: hidden;            
+    overflow: hidden; 
+    font-size: 20px;            
 }
 .mainc{
     animation-name: clarte;
@@ -130,16 +138,10 @@ main{
 .mainc:hover .mainc4{
     width: 85%;
 }
-.mainc1{
-    font-size: 20px;
-    font-weight: bold;
+.mainc1{    
+    font-weight: 900;
     margin-bottom: 0px;
     margin-top: 0px;
-}
-.mainc1{      
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;   
 }
 .mainc2{
     display: flex;  
@@ -189,6 +191,7 @@ main{
     display: flex;   
     justify-content: space-between;
     position: relative;
+    font-size: 20px;
     }
 .maind{
     animation-name: clarte;
@@ -205,13 +208,7 @@ main{
 .maind:hover .maind4{
     width: 85%;
 }
-.maind:hover .maind2 p{
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
-.maind1{
-        font-size: 20px;
+.maind1{        
         font-weight: bold;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -227,14 +224,22 @@ main{
 }
 .maind2 p{
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0px;    
 }
+.maind2 p{        
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 .maind3{
     font-weight: bold;
 }
 .maind4{
     width: 95%;
     transition: width 2s;
+}
+.maind5{   
+    width: 80%;
 }
 .maine{
     font-family: 'Roboto', sans-serif;    
@@ -252,6 +257,7 @@ main{
     display: flex;   
     justify-content: space-between;
     position: relative;
+    font-size: 20px;
 }
 .maine{
     animation-name: clarte;
@@ -268,8 +274,7 @@ main{
 .maine:hover .maine4{
     width: 85%;
 }
-.maine1{
-        font-size: 20px;
+.maine1{    
         font-weight: bold;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -317,6 +322,7 @@ main{
     display: flex;   
     justify-content: space-between;
     position: relative;
+    font-size: 20px;
 }
 .mainf{
     animation-name: clarte;
@@ -344,7 +350,6 @@ main{
     width: 85%;
 }
 .mainf1{
-        font-size: 20px;
         font-weight: bold;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -357,12 +362,20 @@ main{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.mainf2 p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
 .mainf3{
     font-weight: bold;
 }
 .mainf4{
     width: 95%;
     transition: width 2s;
+}
+.mainf5{
+    width: 80%;
 }
 .maing{    
     font-family: 'Roboto', sans-serif;    
@@ -380,6 +393,7 @@ main{
     display: flex;   
     justify-content: space-between;
     position: relative;
+    font-size: 20px;
 }
 .maing{
     animation-name: clarte;
@@ -401,8 +415,7 @@ main{
     white-space: nowrap;
     overflow: hidden;
 }
-.maing1{
-        font-size: 20px;
+.maing1{        
         font-weight: bold;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -415,6 +428,11 @@ main{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.maing2 p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
 .maing3{
     font-weight: bold;
 }
@@ -423,9 +441,7 @@ main{
     transition: width 2s;
 }
 .maing5{    
-    white-space: nowrap;     
-    overflow: hidden;
-    text-overflow: ellipsis;    
+    width: 80%;
 }
 .mainh{    
     font-family: 'Roboto', sans-serif;    
@@ -443,6 +459,7 @@ main{
     display: flex;   
     justify-content: space-between;
     position: relative;
+    font-size: 20px;
 }
 .mainh{
     animation-name: clarte;
@@ -464,13 +481,12 @@ main{
     white-space: nowrap;
     overflow: hidden;
 }
-.mainh2{
+.mainh2 p{
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
-.mainh1{
-        font-size: 20px;
+.mainh1{        
         font-weight: bold;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -489,6 +505,9 @@ main{
 .mainh4{
     width: 95%;
     transition: width 2s;
+}
+.mainh5{
+    width: 80%;
 }
 .mainb2{
     font-family: 'Roboto', sans-serif;
@@ -513,6 +532,7 @@ main{
     display: flex;   
     justify-content: space-between;
     position: relative;
+    font-size: 20px;
 }
 .maini{
     animation-name: clarte;
@@ -535,7 +555,6 @@ main{
     text-overflow: ellipsis;
 }
 .maini1{
-        font-size: 20px;
         font-weight: bold;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -574,6 +593,7 @@ main{
     display: flex;   
     justify-content: space-between;
     position: relative;
+    font-size: 20px;
 }
 .mainj{
     animation-name: clarte;
@@ -590,8 +610,7 @@ main{
 .mainj:hover .mainj4{
     width: 85%;
 }
-.mainj1{
-        font-size: 20px;
+.mainj1{        
         font-weight: bold;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -627,6 +646,7 @@ main{
     display: flex;   
     justify-content: space-between;
     position: relative;
+    font-size: 20px;
 }
 .maink{
     animation-name: clarte;
@@ -643,8 +663,7 @@ main{
 .maink:hover .maink4{
     width: 85%;
 }
-.maink1{
-    font-size: 20px;
+.maink1{    
     font-weight: bold;
     margin-bottom: 0px;
     margin-top: 0px
@@ -656,6 +675,14 @@ main{
 .maink2 p{
     margin-top: 0px;
     margin-bottom: 0px;
+}
+.maink2 p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.maink5{
+    width: 80%;
 }
 .maink3{
     font-weight: bold
@@ -688,15 +715,17 @@ main{
 }
 footer{
     position: absolute;
-    top: 1480px;
+    top: 1400px;
     left: 0px;
     z-index: 2;
     background-color: #353535; 
-    margin-top: 30px;      
+    margin-top: 0px;      
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+    height: 330px;
     color: #ffffff;
     width: 100%;
+    padding-top: 30px;
 }
 .footera{
     font-family: 'Shrikhand', cursive; 
@@ -708,60 +737,30 @@ footer{
         display: flex;  
         padding-top: 3px; 
         font-weight: bold; 
-        margin-top: 10px; 
         margin-left: 30px;
+        height: 25px;      
+        
 }
 .footerc{
-    margin-left: 30px; 
+    margin-left: 30px;     
 }
 .footerd{
-        padding-top: 4px;
-      margin-top: 10px;
-      font-weight: bold;
+        padding-top: 4px;      
+      font-weight: 900;
       margin-left: 30px;
       color:#ffffff;
       text-decoration: none;
+      height: 25px;
+      font-family: 'Roboto', sans-serif;
+}
+.footerd {
+    margin-bottom: 0px;
 }
 footer p{
     margin-top: 0px;
     font-weight: bold;
 }
-@media screen  and (max-width: 380px)
- {
-    .mainc{
-        font-size: smaller;
-    }
-    .maind{
-        font-size: smaller;
-    }
-    .mainf{
-        font-size: smaller;
-    }
-    .maing{
-        font-size: smaller;
-    }
-    .mainh{
-        font-size: smaller;
-    .maini{
-        font-size: smaller;
-    }
-    .maini{
-        font-size: smaller;
-    }
-    .mainj{
-        font-size: smaller;
-    }
-    .maink{
-        font-size: smaller;
-    }
-    .mainc1{
-        width:375px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
-    }
-    }
-}
+
 
 
 

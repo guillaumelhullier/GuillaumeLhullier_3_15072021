@@ -2,7 +2,7 @@
         margin: 0px;
         width:auto;
         position: absolute;
-        top: 250px;
+        top: 290px;
         left:0px;
         width: 100%;
         border-radius: 30px;
@@ -20,13 +20,15 @@
 @mixin maintitrep{
     font-family: 'Shrikhand', cursive;
     margin-top: 0px;   
+    margin-bottom: 40px;
 }
 @mixin mainchoix{
     font-family: 'Roboto', sans-serif;
     border-bottom-style: solid;
     border-bottom-color: $tertiaire;
     width: 40px; 
-    margin-left: 10px;  
+    margin-left: 10px; 
+    margin-bottom: 20px; 
 }
 @mixin mainplat{    
     font-family: 'Roboto', sans-serif;    
@@ -78,7 +80,7 @@
 }
 @mixin footer{
     position: absolute;
-    top: 1480px;
+    top: 1400px;
     left: 0px;
     z-index: 2;
     background-color: #353535; 
@@ -87,6 +89,7 @@
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     width: 100%;
+    height: 330px;
 }
 @mixin footera{
     font-family: 'Shrikhand', cursive; 
@@ -100,6 +103,7 @@
         font-weight: bold; 
         margin-top: 10px; 
         margin-left: 30px;
+        height: 25px;
 }
 @mixin footerc{
     margin-left: 30px; 
@@ -111,6 +115,7 @@
     margin-left: 30px;
     color:#ffffff;
     text-decoration: none;
+    height: 25px;
 }
 @mixin footerp {
     margin-top: 0px;

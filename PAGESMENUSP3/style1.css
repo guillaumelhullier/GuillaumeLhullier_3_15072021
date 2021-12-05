@@ -19,9 +19,14 @@
 body {
   margin: 0px;
   max-width: 800px;
+  min-width: 350px;
   min-width: none;
   margin: auto;
   position: relative;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -45,8 +50,9 @@ header {
   padding-left: 20px;
   width: 65%;
   height: 60px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Shrikhand', cursive;
+  height: 70px;
 }
 
 .coeur {
@@ -96,7 +102,7 @@ main {
   margin: 0px;
   width: auto;
   position: absolute;
-  top: 250px;
+  top: 290px;
   left: 0px;
   width: 100%;
   border-radius: 30px;
@@ -113,12 +119,13 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-top: 40px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .maina p {
   font-family: 'Shrikhand', cursive;
   margin-top: 0px;
+  margin-bottom: 40px;
 }
 
 .mainb {
@@ -127,6 +134,7 @@ main {
   border-bottom-color: #99e2d0;
   width: 40px;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .mainc {
@@ -144,6 +152,7 @@ main {
   margin-bottom: 15px;
   position: relative;
   overflow: hidden;
+  font-size: 20px;
 }
 
 .mainc {
@@ -175,16 +184,9 @@ main {
 }
 
 .mainc1 {
-  font-size: 20px;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 0px;
   margin-top: 0px;
-}
-
-.mainc1 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .mainc2 {
@@ -258,6 +260,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+  font-size: 20px;
 }
 
 .maind {
@@ -284,14 +287,7 @@ main {
   width: 85%;
 }
 
-.maind:hover .maind2 p {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .maind1 {
-  font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -317,6 +313,12 @@ main {
   margin-bottom: 0px;
 }
 
+.maind2 p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .maind3 {
   font-weight: bold;
 }
@@ -325,6 +327,10 @@ main {
   width: 95%;
   -webkit-transition: width 2s;
   transition: width 2s;
+}
+
+.maind5 {
+  width: 80%;
 }
 
 .maine {
@@ -348,6 +354,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+  font-size: 20px;
 }
 
 .maine {
@@ -375,7 +382,6 @@ main {
 }
 
 .maine1 {
-  font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -440,6 +446,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+  font-size: 20px;
 }
 
 .mainf {
@@ -479,7 +486,6 @@ main {
 }
 
 .mainf1 {
-  font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -499,6 +505,12 @@ main {
   margin-bottom: 0px;
 }
 
+.mainf2 p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .mainf3 {
   font-weight: bold;
 }
@@ -507,6 +519,10 @@ main {
   width: 95%;
   -webkit-transition: width 2s;
   transition: width 2s;
+}
+
+.mainf5 {
+  width: 80%;
 }
 
 .maing {
@@ -530,6 +546,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+  font-size: 20px;
 }
 
 .maing {
@@ -563,7 +580,6 @@ main {
 }
 
 .maing1 {
-  font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -583,6 +599,12 @@ main {
   margin-bottom: 0px;
 }
 
+.maing2 p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .maing3 {
   font-weight: bold;
 }
@@ -594,9 +616,7 @@ main {
 }
 
 .maing5 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  width: 80%;
 }
 
 .mainh {
@@ -620,6 +640,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+  font-size: 20px;
 }
 
 .mainh {
@@ -652,14 +673,13 @@ main {
   overflow: hidden;
 }
 
-.mainh2 {
+.mainh2 p {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
 
 .mainh1 {
-  font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -687,6 +707,10 @@ main {
   width: 95%;
   -webkit-transition: width 2s;
   transition: width 2s;
+}
+
+.mainh5 {
+  width: 80%;
 }
 
 .mainb2 {
@@ -718,6 +742,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+  font-size: 20px;
 }
 
 .maini {
@@ -751,7 +776,6 @@ main {
 }
 
 .maini1 {
-  font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -806,6 +830,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+  font-size: 20px;
 }
 
 .mainj {
@@ -833,7 +858,6 @@ main {
 }
 
 .mainj1 {
-  font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -884,6 +908,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
+  font-size: 20px;
 }
 
 .maink {
@@ -911,7 +936,6 @@ main {
 }
 
 .maink1 {
-  font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -929,6 +953,16 @@ main {
 .maink2 p {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.maink2 p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.maink5 {
+  width: 80%;
 }
 
 .maink3 {
@@ -976,15 +1010,17 @@ main {
 
 footer {
   position: absolute;
-  top: 1480px;
+  top: 1400px;
   left: 0px;
   z-index: 2;
   background-color: #353535;
-  margin-top: 30px;
+  margin-top: 0px;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
+  height: 330px;
   color: #ffffff;
   width: 100%;
+  padding-top: 30px;
 }
 
 .footera {
@@ -1000,8 +1036,8 @@ footer {
   display: flex;
   padding-top: 3px;
   font-weight: bold;
-  margin-top: 10px;
   margin-left: 30px;
+  height: 25px;
 }
 
 .footerc {
@@ -1010,51 +1046,20 @@ footer {
 
 .footerd {
   padding-top: 4px;
-  margin-top: 10px;
-  font-weight: bold;
+  font-weight: 900;
   margin-left: 30px;
   color: #ffffff;
   text-decoration: none;
+  height: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footerd {
+  margin-bottom: 0px;
 }
 
 footer p {
   margin-top: 0px;
   font-weight: bold;
-}
-
-@media screen and (max-width: 380px) {
-  .mainc {
-    font-size: smaller;
-  }
-  .maind {
-    font-size: smaller;
-  }
-  .mainf {
-    font-size: smaller;
-  }
-  .maing {
-    font-size: smaller;
-  }
-  .mainh {
-    font-size: smaller;
-  }
-  .mainh .maini {
-    font-size: smaller;
-  }
-  .mainh .maini {
-    font-size: smaller;
-  }
-  .mainh .mainj {
-    font-size: smaller;
-  }
-  .mainh .maink {
-    font-size: smaller;
-  }
-  .mainh .mainc1 {
-    width: 375px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  }
 }
 /*# sourceMappingURL=style1.css.map */

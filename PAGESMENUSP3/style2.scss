@@ -19,9 +19,13 @@ $header:#ffffff;
 body{    
     margin:0px;  
     max-width: 800px; 
+    min-width: 360px;
     min-width: none;      
     margin: auto;   
     position: relative;  
+}
+body{
+    font-family: 'Roboto', sans-serif;
 }
 header{
     width: 100%;     
@@ -57,8 +61,9 @@ a{
     padding-left: 20px;  
     width: 65%;
     height: 60px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Shrikhand', cursive;
+    height: 70px;
 }
 .header2{
     justify-content: center;
@@ -130,6 +135,14 @@ main {
  }
  .mainc2 p{
      @include mainplat2p;
+ }
+ .mainc2 p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+ .mainc5{
+     width: 80%;
  }
  .mainc3{
      font-weight: bold;
@@ -404,6 +417,9 @@ main {
     overflow: hidden;
     text-overflow: ellipsis;
  }
+ .maini5{
+     width: 80%;
+ }
  .maini1{
      @include mainplat1;
  }
@@ -510,78 +526,22 @@ footer{
 .footerb{
     @include footerb;
 }
+.footerb{
+    margin-top: 0px;
+}
 .footerc{
     @include footerc;
 }
 .footerd{
     @include footerd;    
 }
+.footerd{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 footer p{
     @include footerp;
 }
-@media screen  and ( max-width: 380px)
- {
-    .mainc{
-        font-size: 10px;
-    }
-    .mainc1{
-        font-size: 15px;
-    }
-    .maind{
-        font-size: 10px;
-    }
-    .maind1{
-        font-size: 15px;
-    }
-    .maine{
-        font-size: 10px;
-    }
-    .maine1{
-        font-size: 15px;
-    }
-    .mainf{
-        font-size: 10px;
-    }
-    .mainf1{
-        font-size: 15px;
-    }
-    .maing{
-        font-size: 10px;
-    }
-    .maing1{
-        font-size: 15px;
-    }
-    .mainh{
-        font-size: 10px;
-    }
-    .mainh1{
-        font-size: 15px;
-    }
-    .maini{
-        font-size: 10px;
-    }
-    .maini1{
-        font-size: 15px;
-    }
-    .mainj{
-        font-size: 10px;
-    }
-    .mainj1{
-        font-size: 15px;
-    }
-    .maink{
-        font-size: 10px;
-    }
-    .maink1{
-        font-size: 15px;
-    }
-    .mainl{
-        font-size: 10px;
-    }
-    .mainl1{
-        font-size: 15px;
-    }
-    }
 
 
 

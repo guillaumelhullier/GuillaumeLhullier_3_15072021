@@ -19,9 +19,13 @@
 body {
   margin: 0px;
   max-width: 800px;
-  min-width: none;
+  min-width: 360px;
   margin: auto;
   position: relative;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -44,8 +48,8 @@ header {
           align-items: center;
   padding-left: 20px;
   width: 65%;
-  height: 60px;
-  font-size: 30px;
+  height: 70px;
+  font-size: 25px;
   font-family: 'Shrikhand', cursive;
 }
 
@@ -96,7 +100,7 @@ main {
   margin: 0px;
   width: auto;
   position: absolute;
-  top: 250px;
+  top: 290px;
   left: 0px;
   width: 100%;
   border-radius: 30px;
@@ -119,6 +123,7 @@ main {
 .maina p {
   font-family: 'Shrikhand', cursive;
   margin-top: 0px;
+  margin-bottom: 40px;
 }
 
 .mainb {
@@ -127,6 +132,7 @@ main {
   border-bottom-color: #99e2d0;
   width: 40px;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .mainc {
@@ -164,9 +170,9 @@ main {
           justify-content: center;
   min-width: 40px;
   background-color: #99e2d0;
-  height: 55px;
   position: absolute;
   right: -40px;
+  height: 55px;
   -webkit-transition: -webkit-transform 2s;
   transition: -webkit-transform 2s;
   transition: transform 2s;
@@ -200,6 +206,12 @@ main {
 
 .mainc:hover .mainc4 {
   width: 85%;
+}
+
+.mainc1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .mainc1 {
@@ -364,14 +376,6 @@ main {
   width: 85%;
 }
 
-.maine:hover .maine1 {
-  text-overflow: ellipsis;
-}
-
-.maine:hover .maine2 p {
-  text-overflow: ellipsis;
-}
-
 .maine1 {
   font-size: 20px;
   font-weight: bold;
@@ -409,6 +413,7 @@ main {
   border-bottom-color: #99e2d0;
   width: 40px;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .mainf {
@@ -422,7 +427,7 @@ main {
           box-shadow: 2px 2px 30px #f6f6f6;
   padding-left: 10px;
   padding-right: 0px;
-  height: 70px;
+  height: 55px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -434,25 +439,21 @@ main {
   position: relative;
 }
 
-.chek1 {
-  height: 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  min-width: 40px;
-  background-color: #99e2d0;
-  position: absolute;
-  right: -40px;
-  -webkit-transition: -webkit-transform 2s;
-  transition: -webkit-transform 2s;
-  transition: transform 2s;
-  transition: transform 2s, -webkit-transform 2s;
+.mainf:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 30px #cccccc;
+          box-shadow: 2px 2px 30px #cccccc;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.mainf:hover .chek {
+  -webkit-transform: translate(-40px);
+          transform: translate(-40px);
+}
+
+.mainf:hover .mainf4 {
+  width: 85%;
 }
 
 .mainf {
@@ -462,21 +463,10 @@ main {
           animation-duration: 7s;
 }
 
-.mainf:hover {
-  background-color: #ffffff;
-  -webkit-box-shadow: 2px 2px 30px #cccccc;
-          box-shadow: 2px 2px 30px #cccccc;
-  -webkit-transition: all 250ms;
-  transition: all 250ms;
-}
-
-.mainf:hover .chek1 {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
-}
-
-.mainf:hover .mainf4 {
-  width: 85%;
+.mainf1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .mainf1 {
@@ -484,18 +474,6 @@ main {
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
-}
-
-.mainf1 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.mainf11 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-weight: bold;
 }
 
 .mainf2 {
@@ -512,6 +490,12 @@ main {
   margin-bottom: 0px;
 }
 
+.mainf2 p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .mainf3 {
   font-weight: bold;
 }
@@ -520,6 +504,10 @@ main {
   width: 95%;
   -webkit-transition: width 2s;
   transition: width 2s;
+}
+
+.mainf5 {
+  width: 80%;
 }
 
 .maing {
@@ -545,6 +533,13 @@ main {
   position: relative;
 }
 
+.maing {
+  -webkit-animation-name: clarte;
+          animation-name: clarte;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+}
+
 .maing:hover {
   background-color: #ffffff;
   -webkit-box-shadow: 2px 2px 30px #cccccc;
@@ -562,11 +557,10 @@ main {
   width: 85%;
 }
 
-.maing {
-  -webkit-animation-name: clarte;
-          animation-name: clarte;
-  -webkit-animation-duration: 7s;
-          animation-duration: 7s;
+.maing1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .maing1 {
@@ -588,6 +582,12 @@ main {
 .maing2 p {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.maing2 p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .maing3 {
@@ -623,11 +623,22 @@ main {
   position: relative;
 }
 
+.maing5 {
+  width: 80%;
+}
+
 .mainh {
   -webkit-animation-name: clarte;
           animation-name: clarte;
   -webkit-animation-duration: 7s;
           animation-duration: 7s;
+}
+
+.maing5 {
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .mainh:hover {
@@ -652,12 +663,6 @@ main {
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 0px;
-}
-
-.mainh1 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .mainh2 {
@@ -690,6 +695,7 @@ main {
   border-bottom-color: #99e2d0;
   width: 40px;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .maini {
@@ -737,12 +743,6 @@ main {
 
 .maini:hover .maini4 {
   width: 85%;
-}
-
-.maini1 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .maini1 {
@@ -824,6 +824,16 @@ main {
 }
 
 .mainj1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mainj:hover .mainj2 p {
+  text-overflow: ellipsis;
+}
+
+.mainj1 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
@@ -852,6 +862,12 @@ main {
   width: 95%;
   -webkit-transition: width 2s;
   transition: width 2s;
+}
+
+.mainj5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .maink {
@@ -902,6 +918,12 @@ main {
 }
 
 .maink1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.maink1 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
@@ -922,6 +944,12 @@ main {
   margin-bottom: 0px;
 }
 
+.maink2 p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .maink3 {
   font-weight: bold;
 }
@@ -930,6 +958,10 @@ main {
   width: 95%;
   -webkit-transition: width 2s;
   transition: width 2s;
+}
+
+.maink5 {
+  width: 80%;
 }
 
 .commander {
@@ -959,15 +991,15 @@ main {
 
 .commander:hover {
   background-color: #e797e5;
-  -webkit-box-shadow: 2px 2px 15px #d345Cf;
-          box-shadow: 2px 2px 15px #d345Cf;
+  -webkit-box-shadow: 2px 2px 15px #d345cf;
+          box-shadow: 2px 2px 15px #d345cf;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
 
 footer {
   position: absolute;
-  top: 1480px;
+  top: 1400px;
   left: 0px;
   z-index: 2;
   background-color: #353535;
@@ -976,6 +1008,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   width: 100%;
+  height: 330px;
 }
 
 .footera {
@@ -993,6 +1026,11 @@ footer {
   font-weight: bold;
   margin-top: 10px;
   margin-left: 30px;
+  height: 25px;
+}
+
+.footerb {
+  margin-top: 0px;
 }
 
 .footerc {
@@ -1006,67 +1044,16 @@ footer {
   margin-left: 30px;
   color: #ffffff;
   text-decoration: none;
+  height: 25px;
+}
+
+.footerd {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 footer p {
   margin-top: 0px;
   font-weight: bold;
 }
-
-@media screen and (max-width: 380px) {
-  .mainc {
-    font-size: 10px;
-  }
-  .mainc1 {
-    font-size: 15px;
-  }
-  .maind {
-    font-size: 10px;
-  }
-  .maind1 {
-    font-size: 15px;
-  }
-  .mainf {
-    font-size: 10px;
-  }
-  .mainf1 {
-    font-size: 15px;
-  }
-  .maing {
-    font-size: 10px;
-  }
-  .maing1 {
-    font-size: 15px;
-  }
-  .mainh {
-    font-size: 10px;
-  }
-  .mainh1 {
-    font-size: 15px;
-  }
-  .maini {
-    font-size: 10px;
-  }
-  .maini1 {
-    font-size: 15px;
-  }
-  .mainj {
-    font-size: 10px;
-  }
-  .mainj1 {
-    font-size: 15px;
-  }
-  .maink {
-    font-size: 10px;
-  }
-  .maink1 {
-    font-size: 15px;
-  }
-  .maine {
-    font-size: 10px;
-  }
-  .maine1 {
-    font-size: 15px;
-  }
-}
-/*# sourceMappingURL=style4.css.map */
+/*# sourceMappingURL=style3.css.map */

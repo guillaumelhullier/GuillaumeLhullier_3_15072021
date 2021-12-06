@@ -16,9 +16,8 @@ $header:#ffffff;
 body{    
     margin:0px;  
     max-width: 800px;
-    min-width: 350px; 
-    min-width: none;     
-    margin: auto;   
+    min-width: 350px;
+     margin: auto;   
     position: relative;     
 }
 body{
@@ -722,7 +721,7 @@ footer{
     margin-top: 0px;      
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    height: 330px;
+    height: 400px;
     color: #ffffff;
     width: 100%;
     padding-top: 30px;
@@ -738,11 +737,13 @@ footer{
         padding-top: 3px; 
         font-weight: bold; 
         margin-left: 30px;
-        height: 25px;      
-        
+        height: 25px;            
+}
+.footerb p{
+    text-align: left;
 }
 .footerc{
-    margin-left: 30px;     
+    margin-left: 5px;     
 }
 .footerd{
         padding-top: 4px;      

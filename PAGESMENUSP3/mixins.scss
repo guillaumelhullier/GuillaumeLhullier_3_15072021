@@ -2,7 +2,7 @@
         margin: 0px;
         width:auto;
         position: absolute;
-        top: 290px;
+        top: 280px;
         left:0px;
         width: 100%;
         border-radius: 30px;
@@ -16,6 +16,7 @@
     justify-content: space-around;
     padding-top: 40px;
     font-size: 25px;
+    padding-left: 20px;
 }
 @mixin maintitrep{
     font-family: 'Shrikhand', cursive;
@@ -32,15 +33,15 @@
 }
 @mixin mainplat{    
     font-family: 'Roboto', sans-serif;    
-    width: 80%;
+    width: 95%;
     border-radius: 20px;    
     margin: auto;
     background-color: $header;
     margin-top: 15px;
     box-shadow: 2px 2px 30px $fond;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px; 
-    height: 55px;
+    height: 70px;
     margin-bottom: 15px; 
     overflow: hidden;
     display: flex;   
@@ -51,7 +52,7 @@
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 @mixin  mainplat2{
     display: flex;
@@ -80,7 +81,7 @@
 }
 @mixin footer{
     position: absolute;
-    top: 1400px;
+    top: 1550px;
     left: 0px;
     z-index: 2;
     background-color: #353535; 
@@ -100,8 +101,7 @@
 }
 @mixin footerb{
         display: flex;  
-        padding-top: 3px; 
-        font-weight: bold; 
+        padding-top: 3px;         
         margin-top: 10px; 
         margin-left: 30px;
         height: 25px;
@@ -111,8 +111,7 @@
 }
 @mixin footerd{
     padding-top: 4px;
-    margin-top: 10px;
-    font-weight: bold;
+    margin-top: 10px;    
     margin-left: 30px;
     color:#ffffff;
     text-decoration: none;

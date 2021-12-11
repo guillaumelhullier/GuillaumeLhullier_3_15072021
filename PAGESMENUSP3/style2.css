@@ -19,8 +19,7 @@
 body {
   margin: 0px;
   max-width: 800px;
-  min-width: 360px;
-  min-width: none;
+  min-width: 360px;  
   margin: auto;
   position: relative;
 }
@@ -46,6 +45,8 @@ a {
   opacity: 1;
   z-index: 1;
   background-color: #f6f6f6;
+  color: gray;
+  right: 20px;
 }
 
 .fa-heart {
@@ -53,8 +54,9 @@ a {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   position: absolute;
-  left: 0px;
+  opacity: 1;
   z-index: 0;
+  right: 20px;
 }
 
 .fa-heart-o:hover {
@@ -102,7 +104,7 @@ main {
   margin: 0px;
   width: auto;
   position: absolute;
-  top: 290px;
+  top: 280px;
   left: 0px;
   width: 100%;
   border-radius: 30px;
@@ -120,6 +122,7 @@ main {
       justify-content: space-around;
   padding-top: 40px;
   font-size: 25px;
+  padding-left: 20px;
 }
 
 .maina p {
@@ -139,16 +142,16 @@ main {
 
 .mainc {
   font-family: 'Roboto', sans-serif;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
   margin: auto;
   background-color: #ffffff;
   margin-top: 15px;
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 0px;
-  height: 55px;
+  height: 70px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -172,7 +175,7 @@ main {
           justify-content: center;
   min-width: 40px;
   background-color: #99e2d0;
-  height: 55px;
+  height: 75px;
   position: absolute;
   right: -40px;
   -webkit-transition: -webkit-transform 2s;
@@ -184,6 +187,13 @@ main {
 .fa-check-circle {
   font-size: larger;
   color: #ffffff;
+}
+
+.fa-check-circle:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .mainc {
@@ -220,7 +230,7 @@ main {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .mainc2 {
@@ -257,18 +267,22 @@ main {
   transition: width 2s;
 }
 
+.mainc6 {
+  font-weight: 200;
+}
+
 .maind {
   font-family: 'Roboto', sans-serif;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
   margin: auto;
   background-color: #ffffff;
   margin-top: 15px;
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 0px;
-  height: 55px;
+  height: 70px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -308,7 +322,7 @@ main {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .maind2 {
@@ -335,18 +349,22 @@ main {
   transition: width 2S;
 }
 
+.maind5 {
+  font-weight: 200;
+}
+
 .maine {
   font-family: 'Roboto', sans-serif;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
   margin: auto;
   background-color: #ffffff;
   margin-top: 15px;
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 0px;
-  height: 55px;
+  height: 70px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -362,7 +380,7 @@ main {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .maine:hover {
@@ -423,18 +441,22 @@ main {
   transition: width 2s;
 }
 
+.maine5 {
+  font-weight: 200;
+}
+
 .mainl {
   font-family: 'Roboto', sans-serif;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
   margin: auto;
   background-color: #ffffff;
   margin-top: 15px;
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 0px;
-  height: 55px;
+  height: 70px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -495,7 +517,7 @@ main {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .mainl2 {
@@ -522,6 +544,10 @@ main {
   transition: width 2s;
 }
 
+.mainl5 {
+  font-weight: 200;
+}
+
 .mainb1 {
   font-family: 'Roboto', sans-serif;
   border-bottom-style: solid;
@@ -533,16 +559,16 @@ main {
 
 .mainf {
   font-family: 'Roboto', sans-serif;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
   margin: auto;
   background-color: #ffffff;
   margin-top: 15px;
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 0px;
-  height: 55px;
+  height: 70px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -588,7 +614,7 @@ main {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .mainf2 {
@@ -615,18 +641,22 @@ main {
   transition: width 2s;
 }
 
+.mainf5 {
+  font-weight: 200;
+}
+
 .maing {
   font-family: 'Roboto', sans-serif;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
   margin: auto;
   background-color: #ffffff;
   margin-top: 15px;
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 0px;
-  height: 55px;
+  height: 70px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -666,7 +696,7 @@ main {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .maing2 {
@@ -693,18 +723,22 @@ main {
   transition: width 2s;
 }
 
+.maing5 {
+  font-weight: 200;
+}
+
 .mainh {
   font-family: 'Roboto', sans-serif;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
   margin: auto;
   background-color: #ffffff;
   margin-top: 15px;
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 0px;
-  height: 55px;
+  height: 70px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -744,7 +778,7 @@ main {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .mainh2 {
@@ -771,6 +805,10 @@ main {
   transition: width 2s;
 }
 
+.mainh5 {
+  font-weight: 200;
+}
+
 .mainb2 {
   font-family: 'Roboto', sans-serif;
   border-bottom-style: solid;
@@ -782,16 +820,16 @@ main {
 
 .maini {
   font-family: 'Roboto', sans-serif;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
   margin: auto;
   background-color: #ffffff;
   margin-top: 15px;
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 0px;
-  height: 55px;
+  height: 70px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -847,7 +885,7 @@ main {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .maini2 {
@@ -874,18 +912,22 @@ main {
   transition: width 2s;
 }
 
+.maini6 {
+  font-weight: 200;
+}
+
 .mainj {
   font-family: 'Roboto', sans-serif;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
   margin: auto;
   background-color: #ffffff;
   margin-top: 15px;
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 0px;
-  height: 55px;
+  height: 70px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -925,7 +967,7 @@ main {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .mainj2 {
@@ -952,18 +994,22 @@ main {
   transition: width 2s;
 }
 
+.mainj5 {
+  font-weight: 200;
+}
+
 .maink {
   font-family: 'Roboto', sans-serif;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
   margin: auto;
   background-color: #ffffff;
   margin-top: 15px;
   -webkit-box-shadow: 2px 2px 30px #f6f6f6;
           box-shadow: 2px 2px 30px #f6f6f6;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-right: 0px;
-  height: 55px;
+  height: 70px;
   margin-bottom: 15px;
   overflow: hidden;
   display: -webkit-box;
@@ -1003,7 +1049,7 @@ main {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .maink1 {
@@ -1034,6 +1080,10 @@ main {
   width: 95%;
   -webkit-transition: width 2s;
   transition: width 2s;
+}
+
+.maink5 {
+  font-weight: 200;
 }
 
 .commander {
@@ -1071,7 +1121,7 @@ main {
 
 footer {
   position: absolute;
-  top: 1400px;
+  top: 1550px;
   left: 0px;
   z-index: 2;
   background-color: #353535;
@@ -1096,7 +1146,6 @@ footer {
   display: -ms-flexbox;
   display: flex;
   padding-top: 3px;
-  font-weight: bold;
   margin-top: 10px;
   margin-left: 30px;
   height: 25px;
@@ -1113,7 +1162,6 @@ footer {
 .footerd {
   padding-top: 4px;
   margin-top: 10px;
-  font-weight: bold;
   margin-left: 30px;
   color: #ffffff;
   text-decoration: none;

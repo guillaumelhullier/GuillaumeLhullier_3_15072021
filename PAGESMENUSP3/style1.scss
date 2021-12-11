@@ -48,14 +48,17 @@ header{
     opacity:1;
     z-index: 1;
     background-color: $fond;
+    color:gray;
+    right: 20px;
 }
 .fa-heart{
     background: linear-gradient( 45deg, #ff79da, #9356dc);
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
-    position: absolute;
-    left: 0px;    
+    position: absolute;    
+    opacity:1;    
     z-index: 0;
+    right: 20px;
 }
 .fa-heart-o:hover{
     opacity: 0;
@@ -76,7 +79,7 @@ main{
     margin: 0px;
     width:auto;
     position: absolute;
-    top: 290px;
+    top: 280px;
     left:0px;
     width: 100%;
     border-radius: 30px;
@@ -87,9 +90,11 @@ main{
 }
 .maina{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 40px;
     font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .maina p{
     font-family: 'Shrikhand', cursive;
@@ -106,19 +111,19 @@ main{
 }
 .mainc{    
     font-family: 'Roboto', sans-serif;    
-    width: 80%;
+    width: 95%;
     border-radius: 20px;    
     margin: auto;
     background-color: $header;
     margin-top: 15px;
     box-shadow: 2px 2px 30px $fond;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px; 
-    height: 55px;
+    height: 70px;
     margin-bottom: 15px;     
     position:relative; 
     overflow: hidden; 
-    font-size: 20px;            
+    font-size: 20px;               
 }
 .mainc{
     animation-name: clarte;
@@ -139,7 +144,7 @@ main{
 .mainc1{    
     font-weight: 900;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 .mainc2{
     display: flex;  
@@ -147,7 +152,7 @@ main{
 }
 .mainc2 p{
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0px;    
 }
 .mainc3{
     font-weight: bold;
@@ -156,34 +161,40 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.mainc5{
+    font-weight: 200;
+}
 .chek{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 40px;
+    width: 40px;
     background-color:$tertiaire;  
     position: absolute;      
     right: -40px;   
     transition: transform 2s;  
-    height: 55px;   
+    height: 75px;   
 }   
-
 .fa-check-circle{
     font-size: larger;
     color: #ffffff;       
 }
+.fa-check-circle:hover{    
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
 .maind
 {            
     font-family: 'Roboto', sans-serif;    
-    width: 80%;
+    width: 95%;
     border-radius: 20px;    
     margin: auto;
     background-color: $header;
     margin-top: 15px;
     box-shadow: 2px 2px 30px $fond;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px; 
-    height: 55px;
+    height: 70px;
     margin-bottom: 15px; 
     overflow: hidden;
     display: flex;   
@@ -209,7 +220,7 @@ main{
 .maind1{        
         font-weight: bold;
         margin-bottom: 0px;
-        margin-top: 0px;
+        margin-top: 10px;
     }
 .maind1{
     white-space: nowrap;
@@ -236,20 +247,20 @@ main{
     width: 95%;
     transition: width 2s;
 }
-.maind5{   
-    width: 80%;
+.maind5{
+    font-weight: 200;
 }
 .maine{
     font-family: 'Roboto', sans-serif;    
-    width: 80%;
+    width: 95%;
     border-radius: 20px;    
     margin: auto;
     background-color: $header;
     margin-top: 15px;
     box-shadow: 2px 2px 30px $fond;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px; 
-    height: 55px;
+    height: 70px;
     margin-bottom: 15px; 
     overflow: hidden;
     display: flex;   
@@ -275,7 +286,7 @@ main{
 .maine1{    
         font-weight: bold;
         margin-bottom: 0px;
-        margin-top: 0px;
+        margin-top: 10px;
 }
 .maine2{
     display: flex;
@@ -292,6 +303,9 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.maine5{
+    font-weight: 200;
+}
 .mainb1{
     font-family: 'Roboto', sans-serif;
     border-bottom-style: solid;
@@ -306,15 +320,15 @@ main{
 }
 .mainf{    
     font-family: 'Roboto', sans-serif;    
-    width: 80%;
+    width: 95%;
     border-radius: 20px;    
     margin: auto;
     background-color: $header;
     margin-top: 15px;
     box-shadow: 2px 2px 30px $fond;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px; 
-    height: 55px;
+    height: 70px;
     margin-bottom: 15px; 
     overflow: hidden;
     display: flex;   
@@ -336,6 +350,9 @@ main{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.mainf6{
+    font-weight: 200;
+}
 .mainf:hover{
     background-color: $header;
     box-shadow: 2px 2px 30px #cccccc;
@@ -350,7 +367,7 @@ main{
 .mainf1{
         font-weight: bold;
         margin-bottom: 0px;
-        margin-top: 0px;
+        margin-top: 10px;
 }
 .mainf2{
     display: flex;
@@ -377,15 +394,15 @@ main{
 }
 .maing{    
     font-family: 'Roboto', sans-serif;    
-    width: 80%;
+    width: 95%;
     border-radius: 20px;    
     margin: auto;
     background-color: $header;
     margin-top: 15px;
     box-shadow: 2px 2px 30px $fond;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px; 
-    height: 55px;
+    height: 70px;
     margin-bottom: 15px; 
     overflow: hidden;
     display: flex;   
@@ -416,7 +433,7 @@ main{
 .maing1{        
         font-weight: bold;
         margin-bottom: 0px;
-        margin-top: 0px;
+        margin-top: 10px;
 }
 .maing2{
     display: flex;
@@ -441,17 +458,20 @@ main{
 .maing5{    
     width: 80%;
 }
+.maing6{
+    font-weight: 200;
+}
 .mainh{    
     font-family: 'Roboto', sans-serif;    
-    width: 80%;
+    width: 95%;
     border-radius: 20px;    
     margin: auto;
     background-color: $header;
     margin-top: 15px;
     box-shadow: 2px 2px 30px $fond;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px; 
-    height: 55px;
+    height: 70px;
     margin-bottom: 15px; 
     overflow: hidden;
     display: flex;   
@@ -487,7 +507,7 @@ main{
 .mainh1{        
         font-weight: bold;
         margin-bottom: 0px;
-        margin-top: 0px;
+        margin-top: 10px;
 }
 .mainh2{
     display: flex;
@@ -507,6 +527,9 @@ main{
 .mainh5{
     width: 80%;
 }
+.mainh6{
+    font-weight: 200;
+}
 .mainb2{
     font-family: 'Roboto', sans-serif;
     border-bottom-style: solid;
@@ -516,15 +539,15 @@ main{
 }
 .maini{
     font-family: 'Roboto', sans-serif;    
-    width: 80%;
+    width: 95%;
     border-radius: 20px;    
     margin: auto;
     background-color: $header;
     margin-top: 15px;
     box-shadow: 2px 2px 30px $fond;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px; 
-    height: 55px;
+    height: 70px;
     margin-bottom: 15px; 
     overflow: hidden;
     display: flex;   
@@ -555,7 +578,7 @@ main{
 .maini1{
         font-weight: bold;
         margin-bottom: 0px;
-        margin-top: 0px;
+        margin-top: 10px;
 }
 .maini:hover .maini1{
     text-overflow: ellipsis;
@@ -575,17 +598,20 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.maini5{
+    font-weight: 200;
+}
 .mainj{    
     font-family: 'Roboto', sans-serif;    
-    width: 80%;
+    width: 95%;
     border-radius: 20px;    
     margin: auto;
     background-color: $header;
     margin-top: 15px;
     box-shadow: 2px 2px 30px $fond;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px; 
-    height: 55px;
+    height: 70px;
     margin-bottom: 15px; 
     overflow: hidden;
     display: flex;   
@@ -611,7 +637,7 @@ main{
 .mainj1{        
         font-weight: bold;
         margin-bottom: 0px;
-        margin-top: 0px;
+        margin-top: 10px;
 }
 .mainj2{
     display: flex;
@@ -628,17 +654,20 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.mainj5{
+    font-weight: 200;
+}
 .maink{    
     font-family: 'Roboto', sans-serif;    
-    width: 80%;
+    width: 95%;
     border-radius: 20px;    
     margin: auto;
     background-color: $header;
     margin-top: 15px;
     box-shadow: 2px 2px 30px $fond;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 0px; 
-    height: 55px;
+    height: 70px;
     margin-bottom: 15px; 
     overflow: hidden;
     display: flex;   
@@ -664,7 +693,7 @@ main{
 .maink1{    
     font-weight: bold;
     margin-bottom: 0px;
-    margin-top: 0px
+    margin-top: 10px
 }
 .maink2{
     display: flex;
@@ -689,6 +718,9 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.maink6{
+    font-weight: 200;
+}
 .commander{
     display: flex;
     justify-content: center;
@@ -697,7 +729,7 @@ main{
     display: flex;      
     width: 200px;
     height: 50px;
-    margin: auto;  
+    margin: auto;    
     margin-top: 50px;     
     text-align: center;
     border-radius: 50px;
@@ -713,7 +745,7 @@ main{
 }
 footer{
     position: absolute;
-    top: 1400px;
+    top: 1450px;
     left: 0px;
     z-index: 2;
     background-color: #353535; 

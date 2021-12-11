@@ -62,14 +62,17 @@ header img{
     opacity:1;
     z-index: 1;
     background-color: $fond;
+    color:gray;
+    right:20px;
 }
 .fa-heart{
     background: linear-gradient( 45deg, #ff79da, #9356dc);
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     position: absolute;
-    left: 0px;    
+    opacity:1;    
     z-index: 0;
+    right: 20px;
 }
 .fa-heart-o:hover{
     opacity: 0;
@@ -96,7 +99,7 @@ main{
     justify-content: center;
     min-width: 40px;
     background-color:$tertiaire;
-    height: 55px;
+    height: 75px;
     position: absolute;
     right: -40px;
     transition: transform 2s;
@@ -105,6 +108,10 @@ main{
 .fa-check-circle{
     font-size: larger;
     color: #ffffff;       
+}
+.fa-check-circle:hover{
+    transform: rotate(360deg);
+    transition-duration: 1s;
 }
 .mainc{
     animation-name: clarte;
@@ -136,6 +143,9 @@ main{
 .mainc4{
     width: 95%;
     transition: width 2s;
+}
+.mainc5{
+    font-weight: 200;
 }
 .maind{
     @include mainplat;
@@ -175,6 +185,9 @@ main{
 .maind4{
     width: 95%;
     transition: width 2s;
+}
+.maind5{
+    font-weight: 200;
 }
 .maine{
     @include mainplat;
@@ -216,12 +229,15 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.maine5{
+    font-weight: 200;
+}
 .mainb1{
     @include mainchoix;
 }
 .mainf{
     font-family: 'Roboto', sans-serif;    
-    width: 80%;
+    width: 95%;
     border-radius: 20px;    
     margin: auto;
     background-color: $header;
@@ -293,6 +309,9 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.mainf5{
+    font-weight: 200;
+}
 .maing{
     @include mainplat;
 }
@@ -326,6 +345,9 @@ main{
 .maing4{
     width: 95%;
     transition: width 2s;
+}
+.maing5{
+    font-weight: 200;
 }
 .mainh{
     @include mainplat;
@@ -365,6 +387,9 @@ main{
 .mainh4{
     width: 95%;
     transition: width 2s;
+}
+.mainh5{
+    font-weight: 200;
 }
 .mainb2{
     @include mainchoix;
@@ -408,6 +433,9 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.maini5{
+    font-weight: 200;
+}
 .mainj{
     @include mainplat;
 }
@@ -442,6 +470,9 @@ main{
     width: 95%;
     transition: width 2s;
 }
+.mainj5{
+    font-weight: 200;
+}
 .maink{
     @include mainplat;
 }
@@ -475,6 +506,9 @@ main{
 .maink4{
     width: 95%;
     transition: width 2s;
+}
+.maink5{
+    font-weight: 200;
 }
 .commander{
     @include bouton;

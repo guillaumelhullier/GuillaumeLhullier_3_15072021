@@ -868,8 +868,8 @@ main {
   text-overflow: ellipsis;
 }
 
-.mainj:hover .mainj2 p {
-  text-overflow: ellipsis;
+.mainj1 {
+  width: 80%;
 }
 
 .mainj1 {

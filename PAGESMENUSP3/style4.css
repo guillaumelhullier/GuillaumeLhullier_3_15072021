@@ -308,6 +308,10 @@ main {
 }
 
 .maind1 {
+  width: 80%;
+}
+
+.maind1 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;

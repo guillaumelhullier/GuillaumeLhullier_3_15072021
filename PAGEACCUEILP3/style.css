@@ -130,6 +130,7 @@ header {
   font-family: 'Shrikhand', cursive;
   text-align: center;
   font-size: 50px;
+  height: 50px;
 }
 
 .headera p {
@@ -148,7 +149,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   background-color: #eaeaea;
-  height: 100px;
+  height: 50px;
 }
 
 .headerb p {
@@ -163,7 +164,7 @@ article {
   padding-top: 50px;
   font-family: 'Roboto', sans-serif;
   background-color: #f6f6f6;
-  height: 290px;
+  height: 280px;
 }
 
 .reservez {
@@ -215,13 +216,15 @@ article {
 aside {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
-  padding-top: 20px;
+  padding-top: 50px;
+  height: 450px;
 }
 
 .fonctionnement {
   font-weight: 900;
-  font-size: 30px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-left: 20px;
 }
 
 .choisisseza {
@@ -749,7 +752,7 @@ footer p {
     font-size: 20px;
   }
   .headera p {
-    font-size: 25px;
+    font-size: 25px;   
     font-weight: bold;
   }
   .headera {

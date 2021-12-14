@@ -271,6 +271,9 @@ main {
     overflow: hidden;
     text-overflow: ellipsis;
  }
+ .mainl1{
+     width:80%;
+ }
 .mainl2 p{
     white-space: nowrap;
     overflow: hidden;
@@ -316,6 +319,9 @@ main {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+ }
+ .mainf1{
+     width:80%;
  }
  .mainf{
     animation-name: clarte;
@@ -435,10 +441,13 @@ main {
  .maini:hover .maini4{
      width: 85%;
  }
- .maini1{
+ .maini1 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+ }
+ .maini1 {
+     width:80%;
  }
  .maini2 p{
     white-space: nowrap;
@@ -529,6 +538,9 @@ main {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+ }
+ .maink1{
+     width:80%;
  }
 .maink2{
     @include mainplat2;

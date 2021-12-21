@@ -196,12 +196,13 @@ header{
       position: absolute;  
       left: -15px; 
       top: 35px; 
+      font-weight: 200;
       color: white;
        }    
   .choisissezb{
       margin-top: 0px;
       margin-left: 20px; 
-      font-weight: bold;     
+      font-weight: 200;     
   }
   .composeza{
       display: flex;
@@ -241,10 +242,12 @@ header{
       left: -15px; 
       top: 35px; 
       color: white;
+      font-weight: 200;
   }
   .composezb{
       margin-top: 0px;
       margin-left: 20px;
+      font-weight: 200;
   }
   .degusteza{
       display: flex;
@@ -267,6 +270,9 @@ header{
     box-shadow: 2px 2px 15px #dcdcdc;
     transition: 250ms;
   }
+  .degusteza:hover .store{
+    color:$primary;
+  }
   .trois{
     margin-top: 0px;      
     margin-right: 10px;          
@@ -278,14 +284,16 @@ header{
     left: -15px; 
     top: 35px; 
     color: white;
+    font-weight: 200;
   }
   .store{
-      color: $primary;
-      margin-left: 20px;
+    margin-left: 20px;
+    color: #747474;
   }
   .degustezb{
     margin-top: 0px;
     margin-left: 20px;
+    font-weight: 200;
   }
   main{
     font-family: 'Roboto', sans-serif;    

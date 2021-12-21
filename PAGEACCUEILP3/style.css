@@ -273,13 +273,14 @@ aside {
   position: absolute;
   left: -15px;
   top: 35px;
+  font-weight: 200;
   color: white;
 }
 
 .choisissezb {
   margin-top: 0px;
   margin-left: 20px;
-  font-weight: bold;
+  font-weight: 200;
 }
 
 .composeza {
@@ -329,11 +330,13 @@ aside {
   left: -15px;
   top: 35px;
   color: white;
+  font-weight: 200;
 }
 
 .composezb {
   margin-top: 0px;
   margin-left: 20px;
+  font-weight: 200;
 }
 
 .degusteza {
@@ -364,6 +367,10 @@ aside {
   transition: 250ms;
 }
 
+.degusteza:hover .store {
+  color: #9356DC;
+}
+
 .trois {
   margin-top: 0px;
   margin-right: 10px;
@@ -375,16 +382,18 @@ aside {
   left: -15px;
   top: 35px;
   color: white;
+  font-weight: 200;
 }
 
 .store {
-  color: #9356DC;
   margin-left: 20px;
+  color: #747474;
 }
 
 .degustezb {
   margin-top: 0px;
   margin-left: 20px;
+  font-weight: 200;
 }
 
 main {

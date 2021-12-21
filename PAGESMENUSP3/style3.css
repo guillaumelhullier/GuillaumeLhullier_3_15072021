@@ -172,10 +172,10 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 40px;
+  min-width: 60px;
   background-color: #99e2d0;
   position: absolute;
-  right: -40px;
+  right: -60px;
   height: 75px;
   -webkit-transition: -webkit-transform 2s;
   transition: -webkit-transform 2s;
@@ -211,12 +211,12 @@ main {
 }
 
 .mainc:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
+  -webkit-transform: translate(-60px);
+          transform: translate(-60px);
 }
 
 .mainc:hover .mainc4 {
-  width: 85%;
+  width: 80%;
 }
 
 .mainc1 {
@@ -299,12 +299,12 @@ main {
 }
 
 .maind:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
+  -webkit-transform: translate(-60px);
+          transform: translate(-60px);
 }
 
 .maind:hover .maind4 {
-  width: 85%;
+  width: 80%;
 }
 
 .maind1 {
@@ -387,12 +387,12 @@ main {
 }
 
 .maine:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
+  -webkit-transform: translate(-60px);
+          transform: translate(-60px);
 }
 
 .maine:hover .maine4 {
-  width: 85%;
+  width: 80%;
 }
 
 .maine1 {
@@ -471,12 +471,12 @@ main {
 }
 
 .mainf:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
+  -webkit-transform: translate(-60px);
+          transform: translate(-60px);
 }
 
 .mainf:hover .mainf4 {
-  width: 85%;
+  width: 80%;
 }
 
 .mainf {
@@ -576,12 +576,12 @@ main {
 }
 
 .maing:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
+  -webkit-transform: translate(-60px);
+          transform: translate(-60px);
 }
 
 .maing:hover .maing4 {
-  width: 85%;
+  width: 80%;
 }
 
 .maing1 {
@@ -681,12 +681,12 @@ main {
 }
 
 .mainh:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
+  -webkit-transform: translate(-60px);
+          transform: translate(-60px);
 }
 
 .mainh:hover .mainh4 {
-  width: 85%;
+  width: 80%;
 }
 
 .mainh1 {
@@ -772,12 +772,12 @@ main {
 }
 
 .maini:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
+  -webkit-transform: translate(-60px);
+          transform: translate(-60px);
 }
 
 .maini:hover .maini4 {
-  width: 85%;
+  width: 80%;
 }
 
 .maini1 {
@@ -854,12 +854,12 @@ main {
 }
 
 .mainj:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
+  -webkit-transform: translate(-60px);
+          transform: translate(-60px);
 }
 
 .mainj:hover .mainj4 {
-  width: 85%;
+  width: 80%;
 }
 
 .mainj1 {
@@ -952,12 +952,12 @@ main {
 }
 
 .maink:hover .chek {
-  -webkit-transform: translate(-40px);
-          transform: translate(-40px);
+  -webkit-transform: translate(-60px);
+          transform: translate(-60px);
 }
 
 .maink:hover .maink4 {
-  width: 85%;
+  width: 80%;
 }
 
 .maink1 {

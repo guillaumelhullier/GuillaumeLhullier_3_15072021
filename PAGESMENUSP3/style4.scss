@@ -97,11 +97,11 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 40px;
+    min-width: 60px;
     background-color:$tertiaire;
     height: 75px;
     position: absolute;
-    right: -40px;
+    right: -60px;
     transition: transform 2s;
   }
 
@@ -123,10 +123,10 @@ main{
     transition: all 250ms;
 }
 .mainc:hover .chek{
-    transform: translate(-40px);
+    transform: translate(-60px);
 }
 .mainc:hover .mainc4{
-    width: 85%;
+    width: 80%;
 }
 .mainc1{
     @include mainplat1;
@@ -160,10 +160,10 @@ main{
     transition: all 250ms;
 }
 .maind:hover .chek{
-    transform:translate(-40px);
+    transform:translate(-60px);
 }
 .maind:hover .maind4{
-    width: 85%;
+    width: 80%;
 }
 .maind1{
     white-space: nowrap;
@@ -205,10 +205,10 @@ main{
     transition: all 250ms;
 }
 .maine:hover .chek{
-    transform: translate(-40px);
+    transform: translate(-60px);
 }
 .maine:hover .maine4{
-    width: 85%;
+    width: 80%;
 }
 .maine:hover .maine1{
     text-overflow: ellipsis;
@@ -260,10 +260,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 40px;
+    min-width: 100px;
     background-color:$tertiaire;    
     position: absolute;
-    right: -40px;
+    right: -100px;
     transition: transform 2s;
 }
 .mainf{
@@ -276,10 +276,10 @@ main{
     transition: all 250ms;
 }
 .mainf:hover .chek1{
-    transform: translate(-40px);
+    transform: translate(-60px);
 }
 .mainf:hover .mainf4{
-    width: 85%;
+    width: 80%;
 }
 .mainf1{
     font-size: 20px;
@@ -324,10 +324,10 @@ main{
     transition: all 250ms;
 }
 .maing:hover .chek{
-    transform: translate(-40px);
+    transform: translate(-60px);
 }
 .maing:hover .maing4{
-    width: 85%;
+    width: 80%;
 }
 .maing{
     animation-name: clarte;
@@ -365,10 +365,10 @@ main{
     transition: all 250ms;
 }
 .mainh:hover .chek{
-    transform: translate(-40px);
+    transform: translate(-60px);
 }
 .mainh:hover .mainh4{
-    width: 85%;
+    width: 80%;
 }
 .mainh1{
     @include mainplat1;
@@ -410,10 +410,10 @@ main{
     transition: all 250ms;
 }
 .maini:hover .chek{
-    transform: translate(-40px)
+    transform: translate(-60px)
 }
 .maini:hover .maini4{
-    width: 85%;
+    width: 80%;
 }
 .maini1{
     white-space: nowrap;
@@ -452,10 +452,10 @@ main{
     transition: all 250ms;
 }
 .mainj:hover .chek{
-    transform: translate(-40px);
+    transform: translate(-60px);
 }
 .mainj:hover .mainj4{
-    width: 85%;
+    width: 80%;
 }
 .mainj1{
     @include mainplat1;
@@ -489,10 +489,10 @@ main{
     transition: all 250ms;
 }
 .maink:hover .chek{
-    transform: translate(-40px);
+    transform: translate(-60px);
 }
 .maink:hover .maink4{
-    width: 85%;
+    width: 80%;
 }
 .maink1{
     @include mainplat1;

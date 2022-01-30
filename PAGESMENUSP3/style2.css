@@ -45,7 +45,7 @@ a {
   opacity: 1;
   z-index: 1;
   background-color: #f6f6f6;
-  color: gray;
+  color: dark;
   right: 20px;
 }
 
@@ -61,8 +61,8 @@ a {
 
 .fa-heart-o:hover {
   opacity: 0;
-  -webkit-transition: opacity 250ms;
-  transition: opacity 250ms;
+  -webkit-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
 .header1 {
@@ -189,13 +189,6 @@ main {
   color: #ffffff;
 }
 
-.fa-check-circle:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-}
-
 .mainc {
   -webkit-animation-name: clarte;
           animation-name: clarte;
@@ -214,6 +207,13 @@ main {
 .mainc:hover .chek {
   -webkit-transform: translate(-60px);
           transform: translate(-60px);
+}
+
+.mainc:hover .fa-check-circle {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
 .mainc:hover .mainc4 {
@@ -314,6 +314,13 @@ main {
           transform: translate(-60px);
 }
 
+.maind:hover .fa-check-circle {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
 .maind:hover .maind4 {
   width: 80%;
 }
@@ -398,6 +405,13 @@ main {
 
 .maine:hover .maine4 {
   width: 80%;
+}
+
+.maine:hover .fa-check-circle {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
 .maine:hover .chek {
@@ -486,6 +500,13 @@ main {
 .mainl:hover .chek {
   -webkit-transform: translate(-60px);
           transform: translate(-60px);
+}
+
+.mainl:hover .fa-check-circle {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
 .mainl:hover .mainl4 {
@@ -597,6 +618,13 @@ main {
           transform: translate(-60px);
 }
 
+.mainf:hover .fa-check-circle {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
 .mainf:hover .mainf4 {
   width: 80%;
 }
@@ -696,6 +724,13 @@ main {
           transform: translate(-60px);
 }
 
+.maing:hover .fa-check-circle {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
 .maing:hover .maing4 {
   width: 80%;
 }
@@ -776,6 +811,13 @@ main {
 .mainh:hover .chek {
   -webkit-transform: translate(-60px);
           transform: translate(-60px);
+}
+
+.mainh:hover .fa-check-circle {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
 .mainh:hover .mainh4 {
@@ -867,6 +909,13 @@ main {
 .maini:hover .chek {
   -webkit-transform: translate(-60px);
           transform: translate(-60px);
+}
+
+.maini:hover .fa-check-circle {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
 .maini:hover .maini4 {
@@ -971,6 +1020,13 @@ main {
           transform: translate(-60px);
 }
 
+.mainj:hover .fa-check-circle {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
 .mainj:hover .mainj4 {
   width: 80%;
 }
@@ -1051,6 +1107,13 @@ main {
 .maink:hover .chek {
   -webkit-transform: translate(-60px);
           transform: translate(-60px);
+}
+
+.maink:hover .fa-check-circle {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
 .maink:hover .maink4 {

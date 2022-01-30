@@ -62,7 +62,7 @@ header img{
     opacity:1;
     z-index: 1;
     background-color: $fond;
-    color:gray;
+    color: dark;
     right:20px;
 }
 .fa-heart{
@@ -76,7 +76,7 @@ header img{
 }
 .fa-heart-o:hover{
     opacity: 0;
-    transition: opacity 250ms;
+    transition: opacity 500ms;
 }
 main{
     @include main;
@@ -109,10 +109,6 @@ main{
     font-size: larger;
     color: #ffffff;       
 }
-.fa-check-circle:hover{
-    transform: rotate(360deg);
-    transition-duration: 1s;
-}
 .mainc{
     animation-name: clarte;
     animation-duration: 5s;
@@ -124,6 +120,10 @@ main{
 }
 .mainc:hover .chek{
     transform: translate(-60px);
+}
+.mainc:hover .fa-check-circle{
+    transform: rotate(360deg);
+    transition-duration: 2s;
 }
 .mainc:hover .mainc4{
     width: 80%;
@@ -161,6 +161,10 @@ main{
 }
 .maind:hover .chek{
     transform:translate(-60px);
+}
+.maind:hover .fa-check-circle{
+    transform: rotate(360deg);
+    transition-duration: 2s;
 }
 .maind:hover .maind4{
     width: 80%;
@@ -206,6 +210,10 @@ main{
 }
 .maine:hover .chek{
     transform: translate(-60px);
+}
+.maine:hover .fa-check-circle{
+    transform: rotate(360deg);
+    transition-duration: 2s;
 }
 .maine:hover .maine4{
     width: 80%;
@@ -278,6 +286,10 @@ main{
 .mainf:hover .chek1{
     transform: translate(-60px);
 }
+.mainf:hover .fa-check-circle{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
 .mainf:hover .mainf4{
     width: 80%;
 }
@@ -326,6 +338,10 @@ main{
 .maing:hover .chek{
     transform: translate(-60px);
 }
+.maing:hover .fa-check-circle{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
 .maing:hover .maing4{
     width: 80%;
 }
@@ -366,6 +382,10 @@ main{
 }
 .mainh:hover .chek{
     transform: translate(-60px);
+}
+.mainh:hover .fa-check-circle{
+    transform: rotate(360deg);
+    transition-duration: 2s;
 }
 .mainh:hover .mainh4{
     width: 80%;
@@ -412,6 +432,10 @@ main{
 .maini:hover .chek{
     transform: translate(-60px)
 }
+.maini:hover .fa-check-circle{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
 .maini:hover .maini4{
     width: 80%;
 }
@@ -454,6 +478,10 @@ main{
 .mainj:hover .chek{
     transform: translate(-60px);
 }
+.mainj:hover .fa-check-circle{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
 .mainj:hover .mainj4{
     width: 80%;
 }
@@ -490,6 +518,10 @@ main{
 }
 .maink:hover .chek{
     transform: translate(-60px);
+}
+.maink:hover .fa-check-circle{
+    transform: rotate(360deg);
+    transition-duration: 2s;
 }
 .maink:hover .maink4{
     width: 80%;

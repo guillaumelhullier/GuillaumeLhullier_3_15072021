@@ -324,7 +324,7 @@ header{
       opacity:1;
       z-index: 1;
       background-color: #ffffff;
-      color: grey;
+      color: dark;
       margin-top: 10px;
   }
   .fa-heart{
@@ -339,7 +339,7 @@ header{
   }
   .fa-heart-o:hover{
       opacity: 0;
-      transition: opacity 250ms;
+      transition: opacity 500ms;
   }
   .nouveau{
       display: flex;

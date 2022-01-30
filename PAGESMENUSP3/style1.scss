@@ -108,6 +108,7 @@ main{
     width: 40px; 
     margin-left: 10px;  
     margin-bottom: 20px; 
+    font-weight: 200;
 }
 .mainc{    
     font-family: 'Roboto', sans-serif;    
@@ -319,12 +320,13 @@ main{
     border-bottom-style: solid;
     border-bottom-color: $tertiaire;
     width: 40px;  
-    margin-left: 10px
+    margin-left: 10px;
+    font-weight: 200;  
 }
 .mainb1 p{
     margin-left: 25px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0px;       
 }
 .mainf{    
     font-family: 'Roboto', sans-serif;    
@@ -555,7 +557,8 @@ main{
     border-bottom-style: solid;
     border-bottom-color: $tertiaire;
     width: 40px; 
-    margin-left: 10px
+    margin-left: 10px;
+    font-weight: 200;
 }
 .maini{
     font-family: 'Roboto', sans-serif;    

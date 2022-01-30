@@ -139,6 +139,10 @@ main {
   margin-bottom: 20px;
 }
 
+.mainb {
+  font-weight: 200;
+}
+
 .mainc {
   font-family: 'Roboto', sans-serif;
   width: 95%;
@@ -459,6 +463,10 @@ main {
   margin-bottom: 20px;
 }
 
+.mainb1 {
+  font-weight: 200;
+}
+
 .mainf {
   font-family: 'Roboto', sans-serif;
   width: 95%;
@@ -772,6 +780,10 @@ main {
   width: 40px;
   margin-left: 10px;
   margin-bottom: 20px;
+}
+
+.mainb2 {
+  font-weight: 200;
 }
 
 .maini {

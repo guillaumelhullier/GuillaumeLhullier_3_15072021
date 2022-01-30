@@ -90,6 +90,9 @@ main {
 .mainb {
     @include mainchoix;
 }
+.mainb{
+    font-weight: 200;
+}
 .mainc{
     @include mainplat;
 }
@@ -312,6 +315,9 @@ main {
  .mainb1 {
      @include mainchoix;
  }
+ .mainb1{
+     font-weight: 200;
+ }
  .mainf {
      @include mainplat;
  }
@@ -445,6 +451,9 @@ main {
  }
  .mainb2{
      @include mainchoix;
+ }
+ .mainb2{
+     font-weight: 200;
  }
  .maini{
      @include mainplat;

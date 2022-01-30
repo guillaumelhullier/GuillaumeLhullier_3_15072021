@@ -90,6 +90,9 @@ main{
 .mainb{
     @include mainchoix;
 }
+.mainb{
+    font-weight: 200;
+}
 .mainc{
     @include mainplat;
 }
@@ -245,6 +248,9 @@ main{
 }
 .mainb1{
     @include mainchoix;
+}
+.mainb1{
+    font-weight: 200;
 }
 .mainf{
     font-family: 'Roboto', sans-serif;    
@@ -416,6 +422,9 @@ main{
 }
 .mainb2{
     @include mainchoix;
+}
+.mainb2{
+    font-weight: 200;
 }
 .maini{
     @include mainplat;

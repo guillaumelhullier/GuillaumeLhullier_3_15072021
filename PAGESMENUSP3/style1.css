@@ -140,6 +140,7 @@ main {
   width: 40px;
   margin-left: 10px;
   margin-bottom: 20px;
+  font-weight: 200;
 }
 
 .mainc {
@@ -451,6 +452,7 @@ main {
   border-bottom-color: #99e2d0;
   width: 40px;
   margin-left: 10px;
+  font-weight: 200;
 }
 
 .mainb1 p {
@@ -786,6 +788,7 @@ main {
   border-bottom-color: #99e2d0;
   width: 40px;
   margin-left: 10px;
+  font-weight: 200;
 }
 
 .maini {

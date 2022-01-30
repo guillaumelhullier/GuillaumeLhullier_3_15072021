@@ -175,6 +175,7 @@ article {
 
 .reservez p {
   margin-top: 0px;
+  font-weight: 800;
 }
 
 .soins {
@@ -280,7 +281,7 @@ aside {
 .choisissezb {
   margin-top: 0px;
   margin-left: 20px;
-  font-weight: 200;
+  font-weight: 800;
 }
 
 .composeza {
@@ -336,7 +337,7 @@ aside {
 .composezb {
   margin-top: 0px;
   margin-left: 20px;
-  font-weight: 200;
+  font-weight: 800;
 }
 
 .degusteza {
@@ -393,7 +394,7 @@ aside {
 .degustezb {
   margin-top: 0px;
   margin-left: 20px;
-  font-weight: 200;
+  font-weight: 800;
 }
 
 main {
@@ -432,6 +433,7 @@ main img {
   background-color: #ffffff;
   color: #000;
   margin-top: 10px;
+  font-weight: 200;
 }
 
 .fa-heart {
@@ -542,6 +544,7 @@ main img {
 .paletteb {
   margin-top: 0px;
   margin-bottom: 0px;
+  font-weight: 200;
 }
 
 .note {
@@ -563,6 +566,7 @@ main img {
 
 .noteb {
   margin-top: 0px;
+  font-weight: 200;
 }
 
 .notec {
@@ -604,6 +608,7 @@ main img {
 
 .rouge {
   margin-top: 0px;
+  font-weight: 200;
 }
 
 .delice {
@@ -615,6 +620,7 @@ main img {
 
 .folie {
   margin-top: 0px;
+  font-weight: 200;
 }
 
 footer {

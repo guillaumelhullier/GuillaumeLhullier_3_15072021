@@ -122,6 +122,7 @@ header{
   }
   .reservez p{
       margin-top: 0px ;
+      font-weight: 800;
   }
   .soins{
       font-size: 20px;
@@ -202,7 +203,7 @@ header{
   .choisissezb{
       margin-top: 0px;
       margin-left: 20px; 
-      font-weight: 200;     
+      font-weight: 800;     
   }
   .composeza{
       display: flex;
@@ -247,7 +248,7 @@ header{
   .composezb{
       margin-top: 0px;
       margin-left: 20px;
-      font-weight: 200;
+      font-weight: 800;
   }
   .degusteza{
       display: flex;
@@ -293,7 +294,7 @@ header{
   .degustezb{
     margin-top: 0px;
     margin-left: 20px;
-    font-weight: 200;
+    font-weight: 800;
   }
   main{
     font-family: 'Roboto', sans-serif;    
@@ -326,6 +327,7 @@ header{
       background-color: #ffffff;
       color: #000;
       margin-top: 10px;
+      font-weight: 200;
   }
   .fa-heart{
       background: linear-gradient( 45deg, #ff79da, #9356dc);
@@ -400,7 +402,8 @@ header{
   }
   .paletteb{
       margin-top: 0px;
-      margin-bottom: 0px;      
+      margin-bottom: 0px;   
+      font-weight: 200;   
   }
   .note{
         display: flex;
@@ -415,6 +418,7 @@ header{
   }
   .noteb{
       margin-top: 0px;
+      font-weight: 200;
   }
   .notec{
     color:#22732b;
@@ -442,6 +446,7 @@ header{
   }
   .rouge{
       margin-top: 0px;
+      font-weight: 200;
   }
   .delice{
       margin-top: 10px;
@@ -451,6 +456,7 @@ header{
   }
   .folie{
       margin-top: 0px;
+      font-weight: 200;
   }
   footer{
       background-color: #353535;
